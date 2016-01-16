@@ -18,13 +18,13 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "http://sahilbathla.com/contact.php",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    your_name: name,
+                    contact_submitted: 'yes',
+                    your_email: email,
+                    message: message + '\n' + phone
                 },
                 cache: false,
                 success: function() {
