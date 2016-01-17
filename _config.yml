@@ -20,22 +20,11 @@ people:
   position: Team Head & Lead Developer
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/sahilbathla
     - title: facebook
-      url: #
+      url: https://www.facebook.com/sahilbathla1
     - title: stack-overflow
-      url: #
-
-- name: Pramod Sharma
-  pic: 2
-  position: Senior Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: http://stackoverflow.com/users/3122241/sahilbathla
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

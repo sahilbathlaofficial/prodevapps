@@ -1,0 +1,15 @@
+---
+title: Fan Gali
+subtitle: OpenCart + Angular
+layout: default
+modal-id: 3
+date: 2015-07-15
+img: fangali.png
+thumbnail: fangali-thumbnail.png
+alt: fangali
+project-date: July 2015
+client: Fan Gali
+category: Web Development
+description: Fan Gali is merchandise store which provides all the cool stuff of your favorite TV Series. It is built on the default opencart theme and is powered by angular js.
+
+---
