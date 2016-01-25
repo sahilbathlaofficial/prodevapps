@@ -24,7 +24,7 @@ $(function() {
                     your_name: name,
                     contact_submitted: 'yes',
                     your_email: email,
-                    message: message + '\n' + phone
+                    your_message: message + '\n' + phone
                 },
                 cache: false,
                 success: function() {
