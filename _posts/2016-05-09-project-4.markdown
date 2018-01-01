@@ -1,6 +1,6 @@
 ---
-title: Fan Gali
-subtitle: OpenCart + Angular
+title: Kick Off Nation
+subtitle: Ruby on Rails + Angular
 layout: default
 modal-id: 3
 date: 2016-05-08
@@ -8,7 +8,7 @@ img: kickoffnation.png
 thumbnail: kickoffnation-thumbnail.png
 alt: kickoffnation
 project-date: July 2015
-client: Fan Gali
+client: Kick Off Nation
 category: Web Development
 description: Kickoffnation is an indian start up revolutionizing sports in India. The app has many different applications i.e. customer facing, organzier app etc. Tech stack involves Ruby on Rails, AngularjS & Sass.
 link: www.kickoffnation.com
