@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://sahilbathla.com/contact.php",
+                url: "http://kickoffnation.com/contact.php",
                 type: "POST",
                 data: {
                     your_name: name,
