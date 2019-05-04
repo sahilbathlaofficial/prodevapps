@@ -1,0 +1,16 @@
+---
+title: CareOff
+subtitle: Serverless + Nodejs + Sequelize
+layout: default
+modal-id: 7
+date: 2018-10-15
+img: careoff.png
+thumbnail: careoff-thumbnail.png
+alt:  CareOff
+project-date: November 2018
+client: Nitin Awate
+category: Web Analytics
+description: We are CareOff, a mobile platform that quickly and reliably connects caregivers to residential care homes, with a high wage for workers and low costs for employers.
+link:  http://careoff.com
+
+---
