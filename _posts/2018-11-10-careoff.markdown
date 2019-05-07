@@ -5,7 +5,7 @@ layout: default
 modal-id: 7
 date: 2018-10-15
 img: careoff.png
-thumbnail: careoff-thumbnail.png
+thumbnail: Careoff-thumbnail.png
 alt:  CareOff
 project-date: November 2018
 client: Nitin Awate
