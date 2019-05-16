@@ -807,6 +807,10 @@ ul.social-buttons li a:active {
     margin-top: 0;
     margin-bottom: 30px;
 }
+.portfolio-modal .modal-content ul.list-inline span {
+
+    color:#fed136;
+}
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
