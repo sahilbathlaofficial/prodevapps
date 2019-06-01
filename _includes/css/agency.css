@@ -656,7 +656,32 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 50px auto;
+    margin: 20px auto;
+}
+i.fas{
+    margin: 15px;
+    width: 50px;
+    height: auto;
+    color: #FED136;
+}
+div.testimonial_card_right p{
+    width: 90%;
+    color: white;
+    margin-left: 15px;
+}
+div.testimonial_card_left p{
+    color: #555555;
+    font-size: 10px;
+    margin: 0 !important;
+}
+div.testimonial_card_left span{
+    color: #555555;
+    font-size: 12px;
+    text-align: center;
+}
+div.testimonial_card_left h6{
+    color: #333333;
+    margin:-10px 0 0 0 !important;
 }
 
 section#contact {
@@ -811,7 +836,15 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
-
+.vertical-center{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.decabits-video{
+    border-radius: 10px;
+    border: 2px solid #555555;
+}
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -821,7 +854,66 @@ ul.social-buttons li a:active {
     background-color: transparent;
     cursor: pointer;
 }
-
+.testimonial_card_image{
+    width: 75%;
+}
+.testimonial_card{
+    height: 300px;
+    margin-top: 100px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+.testimonial_card_left{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px 0 0 8px;
+}
+.testimonial_card_right{
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: #333;
+    border-radius: 0 8px 8px 0;
+}
+.career-card{
+    position: relative;
+    background-image: linear-gradient();
+    transform: translateY(-10%);
+}
+.career-card img{
+    object-fit: cover;
+}
+.career-card-left{
+    position: relative;
+    float: left;
+    border-radius: 8px 0 0 8px;
+}
+.career-card-right h1{
+    color: #fed136;
+}
+.career-card-right h4{
+    color: #999999 !important;
+}
+.career-card-right{
+    position: relative;
+    float: left;
+    padding: 36px;
+    background-color: transparent;
+    border-radius: 0 8px 8px 0;
+}
+.career-btn{
+    width: 144px;
+    height: 36px;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 2px solid #5c629e;
+    color:#5c629e;
+    margin-top: 24px;
+}
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
@@ -846,7 +938,33 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
+#career{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index:1111; /* Sit on top */
+    left: 0;
+    top: 0 !important;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+     overflow-x: hidden;/* Enable scroll if needed */
+     overflow-y: scroll;
+    background-color: #fff !important; /* Fallback color */
+    background-color: #fff !important;
+}
+.career-close{
+    position: relative;
+    left: 80%;
+    top:20px;
+    padding: 4px 4px 4px 4px;
+    transform: translateX(-50%);
+    color: black;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    font-size: 56px;
+    border-radius: 50%;
+    opacity: 1!important;
+}
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.color.primary }};
