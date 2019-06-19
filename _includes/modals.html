@@ -1,6 +1,6 @@
- <!-- Portfolio Modals -->
+     <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -30,7 +30,12 @@
                                     </strong>
                                 </li>
                                 <li>Live Link:
-                                    <strong><a href="//{{ post.link }}">{{ post.link }}</a>
+                                    <strong>
+                                        {%if post.link %}   
+                                           <a href="//{{ post.link }}">{{ post.link }}</a>
+                                        {% else %}
+                                         <span>N/A </span>
+                                         {% endif %}
                                     </strong>
                                 </li>
                             </ul>
