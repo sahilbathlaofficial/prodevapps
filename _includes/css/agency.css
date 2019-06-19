@@ -886,6 +886,7 @@ ul.social-buttons li a:active {
     border-radius: 0 8px 8px 0;
 }
 .career-card{
+    margin-top:10px;
     background-color: white;
     padding: 20px;
     height: 575px;
@@ -910,6 +911,15 @@ ul.social-buttons li a:active {
     border: 2px solid #5c629e;
     color:#5c629e;
     bottom: 24px;
+}
+.close-btn{
+    width: 144px;
+    height: 36px;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 2px solid #5c629e;
+    color:#5c629e;
+    margin-top: 24px;
 }
 .portfolio-modal .close-modal:hover {
     opacity: .3;
