@@ -36,12 +36,32 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-$("#btn-career").click(function() {
-        $("#career").css('display', 'unset');
-        $("body").css('overflow','hidden');
-  });
-  
-  $("#career-close").click(function(){
-    $("#career").css('display', 'none');
+$("#btn-career1").click(function() {
+    $("#career1").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+
+$("#career-close1").click(function(){
+    $("#career1").css('display', 'none');
     $("body").css('overflow','unset');
-  });
+});
+
+$("#btn-career2").click(function() {
+    $("#career2").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+
+$("#career-close2").click(function(){
+    $("#career2").css('display', 'none');
+    $("body").css('overflow','unset');
+});
+
+$("#btn-career3").click(function() {
+    $("#career3").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+
+$("#career-close3").click(function(){
+    $("#career3").css('display', 'none');
+    $("body").css('overflow','unset');
+});
