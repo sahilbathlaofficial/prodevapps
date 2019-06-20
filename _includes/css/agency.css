@@ -860,6 +860,11 @@ ul.social-buttons li a:active {
     background-color: transparent;
     cursor: pointer;
 }
+@media(max-width:768px){
+    .testimonial_card_right p{
+        font-size: 12px ;
+    }
+}
 .testimonial_card_image{
     width: 75%;
 }
@@ -919,7 +924,7 @@ ul.social-buttons li a:active {
     border-radius: 18px;
     border: 2px solid #5c629e;
     color:#5c629e;
-    margin-top: 24px;
+    margin: 24px 0 24px 0;
 }
 .portfolio-modal .close-modal:hover {
     opacity: .3;
