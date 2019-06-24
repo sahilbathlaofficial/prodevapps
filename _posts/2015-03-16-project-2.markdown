@@ -1,15 +1,16 @@
 ---
-title: Beyond Gifted
-subtitle: PHP - OpenCart
+title: Kick Off Nation
+subtitle: Ruby on Rails + Angular
 layout: default
 modal-id: 2
-date: 2015-07-17
-img: beyondgifted.png
-thumbnail: beyondgifted-thumbnail.png
-alt: beyondgifted
-project-date: March 2015
-client: CC Bunghalo
+date: 2015-05-08
+img: kickoffnation.png
+thumbnail: kickoffnation-thumbnail.png
+alt: kickoffnation
+project-date: May 2016
+client: Kick Off Nation
 category: Web Development
-description: A customizable gift e-store developed using opencart. It has many php extensions like group gifting written by our team.
-link: https://www.beyondgifted.com/
+description: Kickoffnation is an indian start up revolutionizing sports in India. The app has many different applications i.e. customer facing, organzier app etc. Tech stack involves Ruby on Rails, AngularjS & Sass.
+
+
 ---
