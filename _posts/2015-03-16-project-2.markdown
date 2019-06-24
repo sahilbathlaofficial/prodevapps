@@ -11,5 +11,5 @@ project-date: March 2015
 client: CC Bunghalo
 category: Web Development
 description: A customizable gift e-store developed using opencart. It has many php extensions like group gifting written by our team.
-link: www.beyondgifted.com
+link: https://www.beyondgifted.com/
 ---
