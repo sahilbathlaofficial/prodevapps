@@ -32,7 +32,7 @@
                                 <li>Live Link:
                                     <strong>
                                         {%if post.link %}   
-                                           <a href="//{{ post.link }}">{{ post.link }}</a>
+                                           <a href="{{ post.link }}" target="_blank">{{ post.link }}</a>
                                         {% else %}
                                          <span>N/A </span>
                                          {% endif %}

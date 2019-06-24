@@ -11,5 +11,5 @@ project-date: April 2014
 client: Perfect My English
 category: Web Development
 description: A simple and intuitive web platform for helping your organization/schools gain the acceptable level of English standard
-link: www.perfectmyenglish.net
+
 ---

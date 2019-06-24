@@ -11,6 +11,5 @@ project-date: March 2018
 client: Meraki/MNTV
 category: Web & Mobile Development
 description: Myanmar Idol application was an application built for the singing reality show Season 3 held in Myanmar. The client was Meraki who were linked directly with Myanmar's TV channel MNTV.
-link: https://play.google.com/store/apps/details?id=com.myanmaridol.android
 
 ---
