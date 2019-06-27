@@ -12,5 +12,5 @@ client: Punchydata
 category: Web Analytics
 description: Punchydata tracks result from marketing channels i.e google, facebook and send data to PipeDrive & Google Analytics so that you know which marketing campaign is doing well for you.
 link: https://punchydata.com/
-
+status: Live
 ---

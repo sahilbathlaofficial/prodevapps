@@ -12,5 +12,5 @@ client: Nitin Awate
 category: Web & Mobile API Development
 description: We are CareOff, a mobile platform that quickly and reliably connects caregivers to residential care homes, with a high wage for workers and low costs for employers.
 link:  https://careoff.com
-
+status: Live
 ---
