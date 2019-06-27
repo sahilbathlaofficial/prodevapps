@@ -12,5 +12,5 @@ client: Entnetwrk
 category: Web & Mobile API Development
 description: Entnetwrk is the first of its kind entertainment social platform to bring people of entertainment industry and all those seeking to be a part of it under one roof.
 link: https://entnetwrk.com/
-
+status: Live
 ---
