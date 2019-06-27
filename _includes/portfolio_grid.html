@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-                <h2>Live</h2>
+                <h2 class="section-heading text-center" style="padding: 20px">Live</h2>
             {% for post in site.posts %}
                   {% if post.status == "Live" %}
 
@@ -31,7 +31,8 @@
            
             </div>
              
-             <div class="row"><h2>Past</h2>
+             <div class="row">
+              <h2 class="section-heading text-center" style="padding: 20px">Past</h2>
             {% for post in site.posts %}
               {% if post.status == "Past" %}   
 
