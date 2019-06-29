@@ -12,6 +12,7 @@
                     <h3 class="text-center" style="color:#999"><span style="color:#fed618">Live </span>Projects</h3>
                 </div>
             {% for post in site.posts %}
+                   {% if post.status == "Live" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -26,6 +27,8 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+                   {% endif %}
+
                     {% endfor %}
            
             </div>
