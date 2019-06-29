@@ -37,18 +37,6 @@ people:
     - title: stack-overflow
       url: 
 
-- name: Shubham Jain
-  pic: 3
-  position: Software Developer
-  social:
-    - title: twitter
-      url: https://twitter.com/shubjain440
-    - title: facebook
-      url: https://www.facebook.com/shubjain1995
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/6674602/shubham-jain
-
-
 - name: Sonal Gupta
   pic: 4
   position: QA Engineer
