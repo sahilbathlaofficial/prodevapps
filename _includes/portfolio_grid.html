@@ -8,7 +8,9 @@
                 </div>
             </div>
             <div class="row">
-                <h2 class="section-heading text-center" style="padding: 20px">Live</h2>
+                <div style="padding: 30px;" class="bg-light-gray">
+                    <h3 class="text-center" style="color:#999"><span style="color:#fed618">Live </span>Projects</h3>
+                </div>
             {% for post in site.posts %}
                   {% if post.status == "Live" %}
 
@@ -32,7 +34,9 @@
             </div>
              
              <div class="row">
-              <h2 class="section-heading text-center" style="padding: 20px">Past</h2>
+            <div style="padding: 30px;">
+                <h3 class="text-center" style="color:#999"><span style="color:#fed618">Past </span>Projects</h3>
+            </div>
             {% for post in site.posts %}
               {% if post.status == "Past" %}   
 
