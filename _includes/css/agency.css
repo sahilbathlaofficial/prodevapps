@@ -838,6 +838,10 @@ ul.social-buttons li a:active {
 
     color:#fed136;
 }
+.modal-body ul.list-inline span {
+
+    color:#fed136;
+}
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
