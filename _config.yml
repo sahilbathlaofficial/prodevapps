@@ -122,3 +122,4 @@ markdown: kramdown
 permalink: pretty
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap
