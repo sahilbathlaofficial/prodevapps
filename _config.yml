@@ -92,6 +92,18 @@ people:
     - title: stack-overflow
       url: 
 
+
+- name: Akshay Kumar 
+  pic: 9
+  position: Project Manager
+  social:
+    - title: twitter
+      url: 
+    - title: facebook
+      url: https://www.facebook.com/akshay.kumarar33
+    - title: stack-overflow
+      url: 
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
