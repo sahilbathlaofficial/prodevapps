@@ -13,6 +13,7 @@ body {
 .modal-backdrop
 {
     position: absolute !important;
+    height: 0 !important;
 }
 .text-muted {
     color: #777;
