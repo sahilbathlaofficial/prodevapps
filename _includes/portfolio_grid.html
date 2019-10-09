@@ -1,15 +1,15 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray" >
+    <section id="portfolio" style="background-color: #253858;" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Few Projects to showcase our love for web</h3>
+                    <h2 class="section-heading" style="color: white">Portfolio</h2>
+                    <h3 class="section-subheading text-muted" style="color: #fafafa">Few Projects to showcase our love for web</h3>
                 </div>
             </div>
             <div class="row">
-                <div style="padding: 30px;" class="bg-light-gray">
-                    <h3 class="text-center" style="color:#999"><span style="color:#fed618">Live </span>Projects</h3>
+                <div style="padding: 30px;" class="">
+                    <h3 class="text-center" style="color:white"><span style="color:#fed618">Live </span>Projects</h3>
                 </div>
             {% for post in site.posts %}
                    {% if post.status == "Live" %}
@@ -61,3 +61,4 @@
          </div>
         </div>
     </section>
+    
