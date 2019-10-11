@@ -20,6 +20,7 @@ var cbpAnimatedHeader = (function() {
 			if( !didScroll ) {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );
+				scaleDiv();
 			}
 		}, false );
 	}
@@ -38,6 +39,19 @@ var cbpAnimatedHeader = (function() {
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;
 	}
+
+	// function scaleDiv() {
+	// 	var sy = scrollY();
+	// 	var sPresent = sy
+	// 	let scaleIncrement = 1+ sPresent/10000;
+	// 	console.log()
+	// 	console.log(scaleIncrement)
+	// 	let scaleDescrement = 1
+	// 	if (sy >=0 && sy <700) {
+	// 		$("#landing-page-container").css("transform", `scale(${scaleIncrement})`)
+	// 		$("#landing-page-container").css("transition", `scale(.1s)`)
+	// 	}
+	// }
 
 	init();
 
