@@ -66,6 +66,17 @@ $("#career-close3").click(function(){
     $("body").css('overflow','unset');
 });
 
+$("#btn-video").click(function() {
+    $("#video").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+
+$("#bt-close-video").click(function() {
+    $("#video").css('display', 'none');
+    $("body").css('overflow','unset');
+});
+
+
 $("body").scroll(function() {
     console.log('dl;dl')
 });
