@@ -2,44 +2,61 @@
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-9 col-xs-9">
+                    <h2 class="text-left mx-4">{{ post.title }}</h2>
+                </div>
+                <div class="col-lg-6  col-md-6 col-sm-3 col-xs-3">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12 col-md-12">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>{{ post.client }}
-                                    </strong>
+                            <ul class="item-details" style="list-style-type: none">
+                                <li class="text-left">
+                                    <h4>
+                                        Client:
+                                        <strong>{{ post.client }}
+                                        </strong>
+                                    </h4>
                                 </li>
-                                <li>Date:
-                                    <strong>{{ post.project-date }}
-                                    </strong>
+                                <li class="text-left">
+                                    <h5>Date:
+                                        <strong>{{ post.project-date }}
+                                        </strong>
+                                    </h5>
                                 </li>
-                                <li>Service:
-                                    <strong>{{ post.category }}
-                                    </strong>
+                                <li class="text-left">
+                                    <h5>
+                                        Service:
+                                        <strong>{{ post.category }}
+                                        </strong>
+                                    </h5>
                                 </li>
-                                <li>Live Link:
-                                    <strong>
+                                <li>
                                         {%if post.link %}   
-                                           <a href="{{ post.link }}" target="_blank">{{ post.link }}</a>
+                                        <a class="pull-left" href="{{ post.link }}" target="_blank"><button class="btn btn-primary btn-sm">View website</button></a>
                                         {% else %}
-                                         <span>N/A </span>
-                                         {% endif %}
-                                    </strong>
+                                            <button class="btn btn-disabled btn-lg pull-left" disabled>N/A</button>
+                                    {% endif %}
+                                </li>
+                                <li>
+                                        <p class="pull-left text-left" style="margin-top: 24px; font-size: 16px;">{{ post.description }}</p>
+
+                                </li>
+                                <li>
+                                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <div class="star-primary"></div>
                         </div>
                     </div>
                 </div>
@@ -47,3 +64,4 @@
         </div>
     </div>
 {% endfor %}
+
