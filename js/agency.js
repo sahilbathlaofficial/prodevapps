@@ -79,7 +79,7 @@ $("#bt-close-video").click(function() {
 $("#landing-animation").ready(function() {
     var sw = $(document).width();
     var time = '';
-    $(".animated-section").fadeIn(4000)
+    $(".animated-section").fadeIn(3000)
     if (sw> 600) {
         time = "3s"
         setTimeout(function() {
@@ -87,8 +87,8 @@ $("#landing-animation").ready(function() {
             $(".animated-text").css('transition', `${time}`);
             setTimeout(function() {
                 $("#landing-animated-section").fadeOut(2000)
-            }, 4000);
-        }, 2000);
+            }, 3000);
+        }, 1500);
         
     }
     else {
@@ -96,7 +96,10 @@ $("#landing-animation").ready(function() {
         setTimeout(function() {
             $(".animated-text").css('transform', 'translate(0, -50vw)');
             $(".animated-text").css('transition', `${time}`);
-        }, 2000);
+            setTimeout(function() {
+                $("#landing-animated-section").fadeOut(2000)
+            }, 3000);
+        }, 1500);
     }
     
 });
