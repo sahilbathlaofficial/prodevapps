@@ -1422,3 +1422,9 @@ div.testimonialcontent{
         transform: translate(-100vw, -50vw);
     }
 }
+
+#expertise{
+    background-image: url(img/backgrounds/language_background.svg);
+    object-fit: fill;
+    background-size: cover;
+}
