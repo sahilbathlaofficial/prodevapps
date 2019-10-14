@@ -76,6 +76,33 @@ $("#bt-close-video").click(function() {
     $("body").css('overflow','unset');
 });
 
+$("#landing-animation").ready(function() {
+    var sw = $(document).width();
+    var time = '';
+    $(".animated-section").fadeIn(4000)
+    if (sw> 600) {
+        time = "3s"
+        setTimeout(function() {
+            $(".animated-text").css('transform', 'translate(0, -50vw)');
+            $(".animated-text").css('transition', `${time}`);
+            setTimeout(function() {
+                $("#landing-animated-section").fadeOut(2000)
+            }, 4000);
+        }, 2000);
+        
+    }
+    else {
+        time = "3s"
+        setTimeout(function() {
+            $(".animated-text").css('transform', 'translate(0, -50vw)');
+            $(".animated-text").css('transition', `${time}`);
+        }, 2000);
+    }
+    
+});
+
+
+
 
 $("body").scroll(function() {
     console.log('dl;dl')

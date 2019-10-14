@@ -1391,3 +1391,34 @@ div.testimonialcontent{
 .bt-close-video:hover{
     cursor: pointer;
 }
+.landing-animation{
+    position: fixed; /* Stay in place */
+    z-index:1111; /* Sit on top */
+    left: 0;
+    top: 50% !important;
+    transform: translateY(-50%);
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: white !important; /* Fallback color */
+    overflow: hidden;
+}
+.animated-section{
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    display: none;
+    transform: translateY(-50%);
+}
+
+.animated-text{
+    position: relative;
+    top: 55vw;
+    transform: translate(-33vw, -50vw);
+}
+@media only screen and (max-width: 600px){
+    .animated-text{
+        position: relative;
+        top: 55vw;
+        transform: translate(-100vw, -50vw);
+    }
+}
