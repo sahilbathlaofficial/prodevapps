@@ -1,23 +1,27 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" style="background-color: #253858;" >
+    <!-- <section id="portfolio" style="background-color: #253858;" > -->
+    <section id="portfolio" style="background-color: #F9FAFB;" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color: white">Portfolio</h2>
-                    <h3 class="section-subheading text-muted" style="color: #fafafa">Few Projects to showcase our love for web</h3>
+                    <h2 class="section-heading" style="color: black">Portfolio</h2>
+                    <h3 class="section-subheading text-muted" style="color:black;">Few Projects to showcase our love for web</h3>
                 </div>
             </div>
-            <div class="row">
+
+<!-- Original Code -->
+            <!-- <div class="row">
                 <div style="padding: 30px;" class="">
                     <h3 class="text-center" style="color:white"><span style="color:#fed618">Live </span>Projects</h3>
                 </div>
             {% for post in site.posts %}
                    {% if post.status == "Live" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    
                     <a href="#{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                 <i class="fa fa-plus fa-3x"></i> 
                                 <div class="vertical-center" style="width: 60%; padding: 12px; border-radius: 4px; border: 2px solid white;">
                                     <h4>View project</h4>
                                 </div>
@@ -34,9 +38,32 @@
 
                     {% endfor %}
            
-            </div>
+            </div> -->
+<!-- Original code ends here -->
+            <div class="row">
+                    <div style="padding: 30px;" class="">
+                        <h3 class="text-center" style="color:black"><span style="color:#fed618">Live </span>Projects</h3>
+                    </div>
+                {% for post in site.posts %}
+                       {% if post.status == "Live" %}
+                    <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+                        <a href="#{{ post.title | slugify }}" class="" data-toggle="modal" style="color: black;text-decoration:none;">    
+                            <div class="card" style="border-radius:10px;background-color: #fafafa;">
+                                <div class="card-body text-center ">
+                                    <img src="img/portfolio/{{ post.thumbnail }}" class="card-img-top img-responsive img-centered" alt="Live projects" style="width: 100%;border-radius:10px 10px 0px 0px;">
+                                    <h5 class="card-title">{{ post.title }}</h5>
+                                    <p class="card-text vertical-center">{{ post.subtitle }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                       {% endif %}
+                        {% endfor %}  
+                </div>
+
+<!-- Original Past Project code -->
              
-             <div class="row">
+             <!-- <div class="row">
             <div style="padding: 30px;">
                     <h3 class="text-center" style="color:white"><span style="color:#fed618">Past </span>Projects</h3>
             </div>
@@ -47,7 +74,7 @@
                     <a href="#{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                                 <i class="fa fa-plus fa-3x"></i> 
                                 <div class="vertical-center" style="width: 60%; padding: 12px; border-radius: 2px; border: 2px solid white;">
                                     <h4>View project</h4>
                                 </div>
@@ -63,8 +90,29 @@
                 {% endif %}
 
             {% endfor %}
-            </div>
-         </div>
+            </div> -->
+
+<!-- Past Project modified -->
+            <div class="row">
+                <div style="padding: 30px;">
+                    <h3 class="text-center" style="color:blac"><span style="color:#fed618">Past </span>Projects</h3>
+                </div>
+            {% for post in site.posts %}
+              {% if post.status == "Past" %}   
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#{{ post.title | slugify }}" class="" data-toggle="modal" style="color: black;text-decoration:none;">   
+                        <div class="card" style="border-radius:10px;background-color: #fafafa;">
+                                <img src="img/portfolio/{{ post.thumbnail }}" class="card-img-top img-responsive img-centered" alt="Live projects" style="width: 100%; border-radius: 10px 10px 0px 0px;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">{{ post.title }}</h5>
+                                    <p class="card-text vertical-center">{{ post.subtitle }}</p>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div> 
         </div>
-    </section>
-    
+    </div>
+</section>

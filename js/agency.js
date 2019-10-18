@@ -87,8 +87,8 @@ $("#landing-animation").ready(function() {
             $(".animated-text").css('transition', `${time}`);
             setTimeout(function() {
                 $("#landing-animated-section").fadeOut(2000)
-            }, 3000);
-        }, 1500);
+            }, 1000);
+        }, 800);
         
     }
     else {
