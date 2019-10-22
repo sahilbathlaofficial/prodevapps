@@ -659,6 +659,9 @@ section h3.section-subheading {
     text-align: center;
     margin-bottom:50px;
     padding:24px 5px;
+    background: #F9FAFB;
+    box-shadow: 1px 1px 10px #E0E0E0;
+
 }
 
 .team-member img {
@@ -1177,14 +1180,18 @@ body {
 #team{
     /* background: -webkit-linear-gradient(86deg, rgb(38, 132, 255), rgb(37, 56, 88));
     background: linear-gradient(86deg ,rgb(38, 132, 255), rgb(37, 56, 88)); */
+    background:url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+    -webkit-animation: slide 20s linear infinite;
 }
 @-webkit-keyframes slide {
     from { background-position: 0 0; }
     to { background-position: -400px 0; }
 }
 .team-background {
+    background: #F9FAFB;
     width: 100%;
     border-radius:10px;
+    box-shadow: 1px 1px 24px #E0E0E0;
     /* text-align: center; */
     height: auto;
     padding:auto;
