@@ -4,7 +4,7 @@ subtitle: Ruby on Rails
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: perfectmyenglish.png
+img: perfectmyenglish1.png
 thumbnail: perfectmyenglish-thumbnail.png
 alt: perfectmyenglish
 project-date: April 2014

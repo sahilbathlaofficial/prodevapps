@@ -4,7 +4,7 @@ subtitle: Ruby on Rails + Angular
 layout: default
 modal-id: 2
 date: 2015-05-08
-img: kickOFF.png
+img: kickoffnation1.png
 thumbnail: kickoffnation-thumbnail.png
 alt: kickoffnation
 project-date: May 2016

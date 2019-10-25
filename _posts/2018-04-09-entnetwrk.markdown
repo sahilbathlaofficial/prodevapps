@@ -4,7 +4,7 @@ subtitle: PHP Laravel + MYSQL + Jquery
 layout: default
 modal-id: 5
 date: 2018-04-09
-img: Entnetwrk.png
+img: entnetwrk2.png
 thumbnail: entnetwrk-thumbnail.png
 alt: Entnetwrk
 project-date: April 2018
