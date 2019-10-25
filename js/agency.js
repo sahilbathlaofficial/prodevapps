@@ -87,8 +87,8 @@ $("#landing-animation").ready(function() {
             $(".animated-text").css('transition', `${time}`);
             setTimeout(function() {
                 $("#landing-animated-section").fadeOut(1500)
-            }, 1500);
-        }, 1500);
+            }, 1000);
+        }, 100);
         
     }
     else {
@@ -98,8 +98,8 @@ $("#landing-animation").ready(function() {
             $(".animated-text").css('transition', `${time}`);
             setTimeout(function() {
                 $("#landing-animated-section").fadeOut(1500)
-            }, 2000);
-        }, 1500);
+            }, 1000);
+        }, 100);
     }
     
 });

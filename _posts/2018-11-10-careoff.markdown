@@ -4,7 +4,7 @@ subtitle: Serverless + Nodejs + Sequelize
 layout: default
 modal-id: 7
 date: 2018-10-15
-img: careoff.png
+img: careoff2.png
 thumbnail: Careoff-thumbnail.png
 alt:  CareOff
 project-date: November 2018

@@ -1,0 +1,16 @@
+---
+title: Kick Off Nation
+subtitle: Ruby on Rails + Angular
+layout: default
+modal-id: 2
+date: 2015-05-08
+img: kickOFF.png
+thumbnail: kickoffnation-thumbnail.png
+alt: kickoffnation
+project-date: May 2016
+client: Kick Off Nation
+category: Web Development
+description: Kickoffnation is an indian start up revolutionizing sports in India. The app has many different applications i.e. customer facing, organzier app etc. Tech stack involves Ruby on Rails, AngularjS & Sass.
+status: Past
+
+---
