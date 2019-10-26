@@ -383,6 +383,12 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
+#portfolio{
+    background-image: url('img/backgrounds/portfolio_background.svg');
+    object-fit: fill;
+    background-size: 100% 100%;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -1442,8 +1448,30 @@ div.testimonialcontent{
 
 /* Team member css starts here */
 
+#team{
+    background-image: url('img/backgrounds/team_background.svg');
+    object-fit: fill;
+    background-size: 100% 100%;
+}
+
 .content{
-    margin:6%;
+    padding:24px;
+    height: 400px;
+    position: relative;
+}
+
+.content h4 {
+    color: #2684FF;
+}
+
+.content p {
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        height: auto;
+    }
   }
 
 .about {

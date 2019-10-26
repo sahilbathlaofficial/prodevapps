@@ -36,6 +36,10 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+$("#portfolio-grid-card").click(function() {
+    $("body").css('overflow','hidden');
+});
+
 $("#btn-career1").click(function() {
     $("#career1").css('display', 'unset');
     $("body").css('overflow','hidden');

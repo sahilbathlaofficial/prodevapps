@@ -4,7 +4,7 @@ subtitle: React+ Firebase
 layout: default
 modal-id: 8
 date: 2019-02-03
-img: mgr1.png
+img: mgr.png
 thumbnail: MGR-thumbnail.png
 alt: CatchVYBZ
 project-date: February 2019
