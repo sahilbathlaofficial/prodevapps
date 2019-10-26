@@ -4,7 +4,7 @@ subtitle: Fitness studio management application
 layout: default
 modal-id: 10
 date: 2019-06-01
-img: mgr.png
+img: MGR.png
 thumbnail: MGR-thumbnail.png
 alt: MGR
 project-date: June 2019
