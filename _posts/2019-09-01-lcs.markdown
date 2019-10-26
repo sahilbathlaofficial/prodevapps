@@ -5,7 +5,7 @@ layout: default
 modal-id: 11
 date: 2019-09-01
 img: lcs.png
-thumbnail: lcs-thumbnail.png
+thumbnail: LCS-thumbnail.png
 alt: LCS
 project-date: Sep 2019
 client: LCS

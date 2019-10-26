@@ -861,6 +861,22 @@ ul.social-buttons li a:active {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    
+    .portfolio-modal .close-modal{
+        width: 24px !important;
+        height: 24px !important;
+        top: 18px !important;
+        right: 42px !important;
+    }
+    .portfolio-modal .close-modal .lr{
+        height: 32px !important;
+    }
+    .portfolio-modal .close-modal .rl{
+        height: 32px !important;
+    }
+}
+
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
