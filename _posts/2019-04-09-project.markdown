@@ -1,0 +1,16 @@
+---
+title: Wingify
+subtitle: Ruby on Rails SDK
+layout: default
+modal-id: 1
+date: 2019-09-20
+img: wingify.png
+thumbnail: wingify-thumbnail.png
+alt: Wingify
+project-date: September 2019
+client: Wingify
+category: Ruby on Rails SDK
+description: VWO SDK is created, supporting ROR, for enabling developers to integrate VWO APIs with ease. Documentation is used to maintain the SDK that would help developers who wishes to integrate or extend the said SDK.
+link: 
+status: Live
+---

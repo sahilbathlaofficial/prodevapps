@@ -10,7 +10,7 @@ alt: beyondgifted
 project-date: March 2015
 client: CC Bunghalo
 category: Web Development
-description: A customizable gift e-store developed using opencart. It has many php extensions like group gifting written by our team.
+description: Beyond gifted is a custom based gift e-store website, developed using open cart.  It has many PHP extensions like group gifting written and created by our team.
 link: https://www.beyondgifted.com/
 status: Live
 ---

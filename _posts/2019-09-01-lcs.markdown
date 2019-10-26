@@ -1,0 +1,16 @@
+---
+title: LCS
+subtitle: Fitness studio management application
+layout: default
+modal-id: 11
+date: 2019-09-01
+img: lcs.png
+thumbnail: lcs-thumbnail.png
+alt: LCS
+project-date: Sep 2019
+client: LCS
+category: Developed a meeting room booking platform with indoor map 
+description: LCS is a mobile application for the purpose of booking seats/ rooms or a floor in a coworking space as per the requirement of the client. The app is designed in a way that time-slots availability and booking can be made with just a click.
+link: https://www.lcs-info.com/
+status: Live
+---

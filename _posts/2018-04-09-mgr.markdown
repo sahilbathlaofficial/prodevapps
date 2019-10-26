@@ -1,0 +1,16 @@
+---
+title: MGR
+subtitle: Fitness studio management application
+layout: default
+modal-id: 10
+date: 2019-06-01
+img: mgr.png
+thumbnail: mgr-thumbnail.png
+alt: MGR
+project-date: June 2019
+client: MGR
+category: Developing a Fitness studio management application
+description: We, MGR, is an online website that aims to give fitness studios an online platform to publish their schedules, facilities and other perks they are offering their clients. The clients and members can further flexibly book workout classes of their comfort, at their own convenience and budget across Manhattan and Palos.
+link: https://mgrapp.com/
+status: Live
+---
