@@ -1299,6 +1299,12 @@ div.testimonialcontent{
     width:100%;
     padding:2%;
   }
+  @media only screen and (max-width: 600px) {
+    div.testimonialcontent{
+        height:500px;
+    }
+}
+
   
   figure.testimonial-div {
     font-family: 'Raleway', Arial, sans-serif;
