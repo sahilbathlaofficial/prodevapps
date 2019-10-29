@@ -1549,8 +1549,15 @@ div.testimonialcontent{
     .service-content{
         height:400px;
     }
-  }
+}
 
+
+@media only screen and (max-width: 600px) {
+   
+    .fancybox-slide {
+        padding: 0 !important;
+    }
+}
 
 
 
