@@ -9,7 +9,7 @@ thumbnail: LCS-thumbnail.png
 alt: LCS
 project-date: Sep 2019
 client: LCS
-category: Developed a meeting room booking platform with indoor map 
+category: Developed a meeting room booking platform with indoor map integration
 description: LCS is a mobile application for the purpose of booking seats/ rooms or a floor in a coworking space as per the requirement of the client. The app is designed in a way that time-slots availability and booking can be made with just a click.
 link: https://www.lcs-info.com/
 status: Live
