@@ -835,6 +835,26 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+@media only screen and (max-width: 600px) {
+    .portfolio-modal .modal-content {
+        padding: 56px 4%;
+        min-height: 100%;
+        border: 0;
+        border-radius: 0;
+        text-align: center;
+        background: linear-gradient(180deg, #253858 25%, #fff 25%);
+        background-clip: border-box;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-body .item-details{
+        padding: 20px 12px;
+    }
+}
+
 .modal-body{
     padding: 10% 0;
 }
@@ -1557,6 +1577,11 @@ div.testimonialcontent{
     .fancybox-slide {
         padding: 0 !important;
     }
+}
+
+
+.carousel-inner .item{
+    height: 475px !important;
 }
 
 
