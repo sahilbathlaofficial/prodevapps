@@ -1,6 +1,6 @@
 ---
 title: LCS
-subtitle: Fitness studio management application
+subtitle: Meeting room booking platform
 layout: default
 modal-id: 11
 date: 2019-09-01
