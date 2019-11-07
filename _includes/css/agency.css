@@ -221,7 +221,7 @@ h1{
 p{
   line-height:2.1rem;
   color:#6c757d;
-  font-size:18px;
+  font-size:17px;
 }
  .container-fluid{
   margin-top:5%;
@@ -498,6 +498,8 @@ textarea {
 .about {
     text-align: justify;
     padding-top:2%;
+    color: #6c757d;
+    
 }
 .centered-items {
     display: flex;
