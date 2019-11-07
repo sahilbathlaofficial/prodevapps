@@ -213,9 +213,7 @@ a */
 body{
   font-family: Montserrat;
 }
-.container{
-  width:1366px;
-}
+
 h1{
   color:#111111;
   font-size:36px;
@@ -225,21 +223,20 @@ p{
   color:#6c757d;
   font-size:18px;
 }
-.container-fluid{
-  margin-top:6%;
+ .container-fluid{
+  margin-top:5%;
 }
 .outer-wrapper{
   width:100%;
 }
 .wrapper{
-  width:1368px;
+  width:100%;
   margin: 0 auto; 
 }
 
-@media only screen and (max-width: 600px) {
-  p{
-    font-size:20px;  }
- }
+.white-text{
+ color: white;
+}
 
 /* Navbar */
 
@@ -274,23 +271,20 @@ p{
   margin:auto;
 }
 .main-button {
-    width: 182px;
+    width:45%;
     border-radius: 50px;
     font-size:20px;
 }
+
 /* Header Mobile Code */
 
 @media only screen and (max-width: 600px) {
- h1,h2,h4,p{
-   text-align: center;
- }
  .main-content{
    text-align: center;
  }
- .feature-image{
-  max-width:80%;
-  max-height:80%;
-  transform: translate(25%,10%);
+ .main-button{
+   width: 100%;
+   margin:2%;
   }
 }
 
@@ -311,9 +305,9 @@ p{
 
 
 /* Service section */
-.service-image{
-  max-width:240px;
-  max-height:160px;
+.column-image{
+  max-width:35%;
+  max-height:25%;
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -341,9 +335,16 @@ p{
   padding-top:1%;
   margin-bottom:4%;
 }
+.expertise-content{
+  text-align:center;
+  padding-top:5px;
+  font-style:italic;
+}
+
+/* Career Section */
 .career-image{
-  max-width:400px;
-  max-height:250px;
+  max-width:70%;
+  max-height:70%;
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -352,20 +353,20 @@ p{
   margin-top:15%;
 }
 .career-image2{
-  max-width:350px;
-  max-height:350px;
+  max-width:67%;
+  max-height:60%;
   display:block;
   margin-left:auto;
   margin-right:auto;
   padding-top:1%;
   margin-bottom:4%;
 }
-
-.expertise-content{
-  text-align:center;
-  padding-top:5px;
-  font-style:italic;
+.career-btn{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
+
 /*Footer*/
 .footer{
   background: #253858;
@@ -374,6 +375,9 @@ p{
 }
 .footer .links ul{
   list-style-type: none;
+}
+.footer p{
+  color: #dee2e6;
 }
 .footer .links ul li a{
     color: white;
@@ -386,17 +390,11 @@ p{
 }
 
 @media only screen and (max-width: 600px) {
-  .footer li{
-    text-align: center;
-  }
-  .footer div{
-    padding:1%;
-  }
+
   .footer .container-fluid{
     margin-top: 0px !important;
   }
  }
-
 
 /* Contact Us */
 .outer-wrapper{
@@ -406,7 +404,6 @@ p{
   padding-top:0.1%;
   margin-left: 0px !important;
   margin-right: 0px !important;
-
 }
 form { 
   max-width:420px; 
@@ -427,13 +424,12 @@ form {
   box-sizing: border-box;
 }
 .contact-image{
-  max-width:440px;
-  max-height:260px;
+  max-width:80%;
+  max-height:80%;
   display:block;
   margin-left:auto;
   margin-right:auto;
   padding-top:1%;
-  margin-bottom:4%;
 }
 .contact-bg{
   background: #6BC1FF;
@@ -446,23 +442,32 @@ textarea {
   line-height: 150%;
   resize:vertical;
 }
+
 [type="submit"] {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 75px;
-    height: 75px;
-    background: #6BC1FF;
-    border-color: #6BC1FF;
+    width: 15%;
+    height: 30%;
+    background: #314360;
+    border-color: #314360;
     border-radius: 50%;
     border: 0;
     cursor: pointer;
-    color: white;
+    color:white;
     font-size: 24px;
     transition: all 0.3s;
     margin-top: -200px;
     margin-left: 380px;
     font-weight: 700;
 }
-
+@media only screen and (max-width: 600px) {
+  [type="submit"]{
+    width:100%;
+    border-radius: 50px;
+    font-size:20px;
+    margin-top: 2%;
+    margin-left: 0px;
+  }
+}
 
 /* Team member css starts here */
 #team{
@@ -472,7 +477,7 @@ textarea {
 }
 .content{
   margin:5%;
-  height: 400px;
+  height: auto;
   position: relative;
 }
 .content h4 {
@@ -515,5 +520,3 @@ textarea {
 
 
 /* Team member css ends here */
-
-
