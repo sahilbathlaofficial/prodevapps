@@ -522,3 +522,28 @@ textarea {
 
 
 /* Team member css ends here */
+
+
+/* Testimonial css starts here */
+.testimonial {
+    width: 100%;
+    background-color: #4A90E2;
+    padding: 150px 36px;
+}
+
+.testiminial-text {
+    padding: 5%;
+    background: white;
+    border-radius: 4px;
+    height: 300px;
+    width: 100%;
+}
+.testimonial-triangle{
+    background: white;
+    height: 100%;
+    border-radius: 6px 0 0 0;
+    padding: 42px 0 0 56px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 36px)
+}
+
+/* Testimonial css ends here */
