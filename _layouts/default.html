@@ -2,14 +2,20 @@
 <html>
 {% include head.html %}
 
-<body id="page-top" class="wrapper">
-  {% include header.html %}
-  {% include services.html %}
-  {% include experties.html %}
-  {% include team.html %}
-  {% include career.html %}
-  {% include contact.html %}
-  {% include footer.html %}
+<body id="page-top">
+  <div class="wrapper">
+    {% include header.html %}
+    {% include services.html %}
+    {% include experties.html %}
+    {% include portfolio.html %}
+  </div>
+  {% include testimonial.html %}
+  <div class="wrapper">
+    {% include team.html %}
+    {% include career.html %}
+  </div>
+    {% include contact.html %}
+    {% include footer.html %}
 </body>
 
 </html>

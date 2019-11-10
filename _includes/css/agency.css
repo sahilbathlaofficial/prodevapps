@@ -209,6 +209,14 @@ a
 a
 a */
 
+section {
+    padding: 96px 0 0 0 ;
+}
+
+content {
+    padding: 56px 0 0 0;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
   font-family: Montserrat;
@@ -224,13 +232,13 @@ p{
   font-size:17px;
 }
  .container-fluid{
-  margin-top:5%;
+  margin-top:6%;
 }
 .outer-wrapper{
   width:100%;
 }
 .wrapper{
-  width:100%;
+  width:90%;
   margin: 0 auto; 
 }
 
@@ -276,16 +284,22 @@ p{
     font-size:20px;
 }
 
+.btn-landing-page{
+    padding: 12px;
+    width: auto;
+}
+
+.btn-landing-video{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
 /* Header Mobile Code */
 
 @media only screen and (max-width: 600px) {
  .main-content{
    text-align: center;
  }
- .main-button{
-   width: 100%;
-   margin:2%;
-  }
 }
 
 /* Video Section */
@@ -445,8 +459,8 @@ textarea {
 
 [type="submit"] {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 15%;
-    height: 30%;
+    width: 64px;
+    height: 64px;
     background: #314360;
     border-color: #314360;
     border-radius: 50%;
@@ -528,22 +542,201 @@ textarea {
 .testimonial {
     width: 100%;
     background-color: #4A90E2;
-    padding: 150px 36px;
+    padding: 1px 0 64px 0;
 }
 
-.testiminial-text {
+.testimonial-card {
     padding: 5%;
-    background: white;
-    border-radius: 4px;
+    background-color: white;
+    border-radius: 12px;
     height: 300px;
     width: 100%;
 }
-.testimonial-triangle{
-    background: white;
-    height: 100%;
-    border-radius: 6px 0 0 0;
-    padding: 42px 0 0 56px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 36px)
+
+.testimonial-card p{
+    font-style: italic;
+}
+
+.testimonial-title-text h4{
+    color: white;
+    line-height: 1.2rem;
+}
+
+.testimonial-title-text p{
+    color: white;
+    line-height: 1.2rem;
+}
+
+.testimonial-title-text {
+    transform: translateY(-65%);
+}
+
+.testimonial-card {
+    color: white;
+}
+
+.testimonial-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #4A90E2;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testimonial .wrapper h1{
+    margin-bottom: 24px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-slide-controlers{
+      position: relative;
+      top: -300px;
+      opacity: 1;
+    }
+
+    .testimonial-card p{
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+
+    .testimonial {
+        padding: 12px 0;
+    }
+    
+    .testimonial .wrapper h1{
+        margin-bottom: 24px;
+    }
 }
 
 /* Testimonial css ends here */
+
+/* Porfolio css ends here */
+
+.portfolio-card-1{
+    height: 500px;
+    background: #01B5A9;
+    background-image: url(img/portfolio/wingify-thumbnail.png);
+    object-fit: cover;
+    background-size: 50% auto;
+}
+.portfolio-card-2{
+    height: 400px;
+    background-color: #DEA513;
+    background-image: url(img/portfolio/mgr-thumbnail.png);
+    object-fit: cover;
+}
+.portfolio-card-3{
+    height: 600px;
+    background-color: #3B2D94;
+    background-image: url(img/portfolio/lcs-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+}
+.portfolio-card-4{
+    height: 400px;
+    background-color: #58A4C7;
+    transform: translateY(-100px);
+    background-image: url(img/portfolio/careoff-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+
+}
+.portfolio-card-5{
+    height: 500px;
+    background-color: #E290E0;
+    transform: translateY(-200px);
+    background-image: url(img/portfolio/catchvybz-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+}
+.portfolio-card-6{
+    height: 300px;
+    background-color: #93AAFF;
+    position: relative;;
+    right: 0;
+    background-image: url(img/portfolio/punchydata-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+ 
+}
+.portfolio-card-7{
+    height: 300px;
+    display: flex;
+    background-color: #222;
+    transform: translateY(-200px);
+    background-image: url(img/portfolio/beyondgifted-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+}
+.portfolio-card-8{
+    height: 300px;
+    background-color: #444;
+    transform: translateY(-200px);
+    background-image: url(img/portfolio/entnetwrk-thumbnail.png);
+    object-fit: cover;
+    background-size: 100% auto;
+
+}
+.portfolio-card{
+    padding: 0;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.portfolio-content{
+  padding: 4%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(0, 0, 0, .4));
+}
+
+.portfolio-content:hover{
+  cursor: pointer;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
+}
+
+.portfolio-content:hover .btn-view-portfolio{
+  transition: 1s;
+  opacity: 1
+}
+
+.btn-view-portfolio{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, .4);
+  border: 2px solid white;
+  color: white;
+  border-radius: 24px;
+  opacity: 0;
+  width: 50%;
+  height: 48px;
+}
+
+
+.portfolio-title{
+  position: absolute;
+  bottom: 12px;
+}
+
+.portfolio-title h2{
+    color: white;
+}
+
+.portfolio-title p{
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-card{
+      height: 500px;
+      transform: translateY(0);
+  }
+}
+/* Portfolio css ends here */

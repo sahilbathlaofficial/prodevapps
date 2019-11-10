@@ -36,44 +36,45 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
-$("#portfolio-grid-card").click(function() {
-    $("body").css('overflow','hidden');
-});
 
-$("#btn-career1").click(function() {
-    $("#career1").css('display', 'unset');
-    $("body").css('overflow','hidden');
-});
+// $("#portfolio-grid-card").click(function() {
+//     $("body").css('overflow','hidden');
+// });
 
-$("#career-close1").click(function(){
-    $("#career1").css('display', 'none');
-    $("body").css('overflow','unset');
-});
+// $("#btn-career1").click(function() {
+//     $("#career1").css('display', 'unset');
+//     $("body").css('overflow','hidden');
+// });
 
-$("#btn-career2").click(function() {
-    $("#career2").css('display', 'unset');
-    $("body").css('overflow','hidden');
-});
+// $("#career-close1").click(function(){
+//     $("#career1").css('display', 'none');
+//     $("body").css('overflow','unset');
+// });
 
-$("#career-close2").click(function(){
-    $("#career2").css('display', 'none');
-    $("body").css('overflow','unset');
-});
+// $("#btn-career2").click(function() {
+//     $("#career2").css('display', 'unset');
+//     $("body").css('overflow','hidden');
+// });
 
-$("#btn-career3").click(function() {
-    $("#career3").css('display', 'unset');
-    $("body").css('overflow','hidden');
-});
+// $("#career-close2").click(function(){
+//     $("#career2").css('display', 'none');
+//     $("body").css('overflow','unset');
+// });
 
-$("#career-close3").click(function(){
-    $("#career3").css('display', 'none');
-    $("body").css('overflow','unset');
-});
+// $("#btn-career3").click(function() {
+//     $("#career3").css('display', 'unset');
+//     $("body").css('overflow','hidden');
+// });
 
-$("#bt-close-video").click(function() {
-    $("#video").css('display', 'none');
-    $("body").css('overflow','unset');
-});
+// $("#career-close3").click(function(){
+//     $("#career3").css('display', 'none');
+//     $("body").css('overflow','unset');
+// });
+
+// $("#bt-close-video").click(function() {
+//     $("#video").css('display', 'none');
+//     $("body").css('overflow','unset');
+// });
 
 $("#landing-animation").ready(function() {
     var sw = $(document).width();
