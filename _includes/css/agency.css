@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 /* body {
     overflow-x: hidden;
     overflow: scroll !important;
@@ -199,10 +193,9 @@ header .intro-text .intro-heading {
 /* Services ends here */
 /* a
 a
-
 a
 a
-aa
+a
 a
 a
 a
@@ -210,7 +203,7 @@ a
 a */
 
 section {
-    padding: 96px 0 0 0 ;
+    /* padding: 96px 0 0 0 ; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -225,8 +218,9 @@ content {
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
   body{
     @import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+    font-family: 'Montserrat' !important;
   }
-}
+
 
 h1 {
   color: #111111;
@@ -431,7 +425,7 @@ form {
   margin: 0px auto;
 }
 .feedback-input {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat',Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
@@ -458,6 +452,10 @@ form {
 
 .feedback-input:focus {
   border: 2px solid #4a90e2;
+}
+
+#contact-text{
+  margin-left:10%;
 }
 
 textarea {
@@ -488,6 +486,9 @@ textarea {
     border-radius: 50px;
     font-size: 20px;
     margin-top: 2%;
+    margin-left: 0px;
+  }
+  #contact-text{
     margin-left: 0px;
   }
 }
@@ -640,7 +641,7 @@ textarea {
 
 .portfolio-card-1{
     height: 500px;
-    background: #333;
+    background:#D01786;
     background-image: url(img/portfolio/catchvybz-thumbnail.png);
     object-fit: cover;
     background-size: 50% auto;
@@ -669,7 +670,7 @@ textarea {
 }
 .portfolio-card-5{
     height: 500px;
-    background-color: #E8AD00;
+    background-color: #F8CC1C;
     transform: translateY(-200px);
     background-image: url(img/portfolio/wingify-thumbnail.png);
     object-fit: cover;
@@ -690,13 +691,13 @@ textarea {
     display: flex;
     background-color: #3B2D94;
     transform: translateY(-200px);
-    background-image: url(img/portfolio/beyondgifted-thumbnail.png);
+    background-image: url(img/portfolio/beyond_gifted_thumbnail.png);
     object-fit: cover;
     background-size: 100% auto;
 }
 .portfolio-card-8{
     height: 500px;
-    background-color: #9b9b9b9b;
+    background-color: #FF3737;
     transform: translateY(-200px);
     background-image: url(img/portfolio/entnetwrk-thumbnail.png);
     object-fit: cover;
