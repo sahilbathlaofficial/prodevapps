@@ -5,22 +5,17 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-// $(function() {
-//     $('a.page-scroll').bind('click', function(event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
-
-// Highlight the top nav as scrolling occurs
-$('div.porfolio-modal').ready(function() {
-    var hash = window.location.hash;
-    $(`${hash}`).removeClass('hide');
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 });
 
+// Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
@@ -28,10 +23,6 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-});
-
-$('.portfolio-content').click(function(){
-    console.log('jkljlkj');
 });
 
 $('div.modal').on('show.bs.modal', function() {
