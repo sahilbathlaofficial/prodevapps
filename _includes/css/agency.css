@@ -844,3 +844,105 @@ figure.testimonial-div .author h5 span {
   font-size: 20px;
   color:white;
 }
+
+/* Portfolio Modal */
+.modal-backdrop
+{
+    position: absolute !important;
+    height: 0 !important;
+}
+.portfolio-modal .modal-content{
+  background: linear-gradient(180deg, #253858 40%, #fff 40%);
+}
+
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+  color:white;
+}
+
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+  color:white;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+@media only screen and (max-width: 600px) {
+  .portfolio-modal .modal-content h2 {
+      font-size: 24px !important;
+  }
+  .portfolio-modal .modal-content{
+    background: linear-gradient(180deg, #253858 25%, #fff 25%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .portfolio-modal .close-modal{
+      width: 24px !important;
+      height: 24px !important;
+      top: 18px !important;
+      right: 42px !important;
+  }
+  .portfolio-modal .close-modal .lr{
+      height: 32px !important;
+  }
+  .portfolio-modal .close-modal .rl{
+      height: 32px !important;
+  }
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content ul.list-inline span {
+
+  color:#fed136;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+  width:100%;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+  z-index: 1051;
+  width: 8px;
+  height: 56px;
+  border-radius: 4px;
+  margin-left: 35px;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+  z-index: 1052;
+  width: 8px;
+  border-radius: 4px;
+  height: 56px;
+  background-color: white;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
