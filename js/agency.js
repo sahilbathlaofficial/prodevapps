@@ -8,7 +8,6 @@
 
 $('#portfolio-modal').ready(function(){
     var pathName = window.location.pathname;
-
     switch (pathName) {
         case (pathName='/portfolio/catchvybz.html'):
             $('#catchvybz').removeClass('hide');
@@ -47,15 +46,14 @@ $('#portfolio-modal').ready(function(){
 
 $('#career').ready(function(){
     var pathName = window.location.pathname;
-    alert(pathName)
     switch (pathName) {
         case (pathName='/career/fullstack/'):
-            $('#fullstack').removeClass('hide');
-            $('#fullstack').remove('.hide');
+            $('.fullstack').removeClass('hide');
+            $('.career').remove('.hide');
         break;
-        case (pathName='/portfolio/ror/'):
-            $('#ror').removeClass('hide');
-            $('#ror').remove('.hide');
+        case (pathName='/career/ror/'):
+            $('.ror').removeClass('hide');
+            $('.career').remove('.hide');
         break;
     }
 });
@@ -80,16 +78,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
-});
 
 
 // $("#portfolio-grid-card").click(function() {
