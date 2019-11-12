@@ -745,7 +745,7 @@ figure.testimonial-div .author h5 span {
 .portfolio-card-6{
     height: 300px;
     background-color: #3160B3;
-    position: relative;;
+    position: relative;
     right: 0;
     background-image: url(img/portfolio/punchydata-thumbnail.png);
     object-fit: cover;
@@ -754,7 +754,6 @@ figure.testimonial-div .author h5 span {
 }
 .portfolio-card-7{
     height: 500px;
-    display: flex;
     background-color: #3B2D94;
     transform: translateY(-200px);
     background-image: url(img/portfolio/beyond_gifted_thumbnail.png);
@@ -776,17 +775,27 @@ figure.testimonial-div .author h5 span {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 50%;
+    border-radius: 24px;
+    box-shadow: 0 4px 6px rgba(9,9,9,0.35);
+}
+
+
+.portfolio-grid{
+  padding: 12px;;
 }
 
 .portfolio-content{
   padding: 12px;
   width: 100%;
   height: 100%;
+  border-radius: 24px;
   /* background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(0, 0, 0, .4)); */
 }
 
 .portfolio-content:hover{
   cursor: pointer;
+  margin-top: 12px;
+  transition: 1s;
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
 }
 
@@ -838,6 +847,18 @@ figure.testimonial-div .author h5 span {
 .stack ul {
   list-style-type: square;
 }
+
+.stack{
+  padding: 36px 0; 
+}
+.stack h1{
+  padding: 0 0 6% 0; 
+}
+
+.btn-career-mail{
+  margin-top: 6%;
+}
+
 .mail-button {
   width: 50%;
   border-radius:50px;
@@ -945,4 +966,8 @@ figure.testimonial-div .author h5 span {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+}
+
+.hide{
+  display: none !important;
 }

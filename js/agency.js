@@ -5,6 +5,61 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+$('#portfolio-modal').ready(function(){
+    var pathName = window.location.pathname;
+
+    switch (pathName) {
+        case (pathName='/portfolio/catchvybz.html'):
+            $('#catchvybz').removeClass('hide');
+            $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/entnetwrk.html'):
+                $('#entnetwrk').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/careoff..html'):
+                $('#careoff').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/punchydata.html'):
+                $('#punchydata').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/wingify.html'):
+                $('#wingify').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/lcs.html'):
+                $('#lcs').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/mgr.html'):
+                $('#mgr').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+        case (pathName='/portfolio/beyondfited.html'):
+                $('#beyondfited').removeClass('hide');
+                $('.portfolio-modal').remove('.hide');
+        break;
+    }
+});
+
+$('#career').ready(function(){
+    var pathName = window.location.pathname;
+    alert(pathName)
+    switch (pathName) {
+        case (pathName='/career/fullstack/'):
+            $('#fullstack').removeClass('hide');
+            $('#fullstack').remove('.hide');
+        break;
+        case (pathName='/portfolio/ror/'):
+            $('#ror').removeClass('hide');
+            $('#ror').remove('.hide');
+        break;
+    }
+});
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
