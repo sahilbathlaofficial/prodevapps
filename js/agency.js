@@ -243,3 +243,7 @@ $("body").scroll(function() {
     });
 
 
+// Navbar Animation on scroll
+$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});

@@ -206,6 +206,15 @@ section {
     /* padding: 96px 0 0 0 ; */
 }
 
+
+.navbar{
+  transition:500ms ease;
+  background:white;
+}
+.navbar.scrolled{
+  background:#e5e5e5;
+}
+
 @media only screen and (max-width: 600px) {
   section {
     padding: 24px 0 0 0 ;
@@ -260,7 +269,6 @@ padding-right:5%;
   padding: 0px !important;
 }
 .navbar-brand img {
-  width: 136px;
   height: 70px;
 }
 .nav-link {
@@ -575,6 +583,9 @@ textarea {
   }
   .testimonial_card_image {
       width: 50%;
+  }
+  #testimonial-heading{
+    margin-top: 8%;
   }
 }
 .testimonial_card_image{
@@ -989,5 +1000,19 @@ figure.testimonial-div .author h5 span {
 
 .active, .btn-nav:active{
   color: white;
-  background-color: black;
+}
+
+/* Portfolio Modal */
+
+.portfolio-img{
+  width:100%;
+  height:auto;
+}
+.portfolio-modal-wrapper{
+  margin:2%;
+  padding:2%;
+}
+.portfolio-content{
+  margin-top:auto;
+  margin-bottom:auto;
 }
