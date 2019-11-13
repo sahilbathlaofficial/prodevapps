@@ -247,3 +247,8 @@ $("body").scroll(function() {
 $(window).scroll(function(){
 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
+
+// Alert on contact details
+function submit() {
+    alert("The form was submitted");
+  }
