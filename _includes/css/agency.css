@@ -707,7 +707,7 @@ figure.testimonial-div .author h5 span {
 
 .portfolio-card-1{
     height: 500px;
-    background:#D01786;
+    background:#FF64C1;
     background-image: url(img/portfolio/catchvybz-thumbnail.png);
     object-fit: cover;
     background-size: 50% auto;
@@ -771,7 +771,7 @@ figure.testimonial-div .author h5 span {
 }
 .portfolio-card{
     padding: 0;
-    background-size: 80% auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 50%;
@@ -794,9 +794,8 @@ figure.testimonial-div .author h5 span {
 
 .portfolio-content:hover{
   cursor: pointer;
-  margin-top: 12px;
   transition: 1s;
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.8));
 }
 
 .portfolio-content:hover .btn-view-portfolio{
@@ -828,6 +827,14 @@ figure.testimonial-div .author h5 span {
     color: white;
 }
 
+.translate-100{
+  transform: translateY(-100px);
+}
+
+.translate-200{
+  transform: translateY(-200px);
+}
+
 .portfolio-title p{
     color: white;
 }
@@ -836,6 +843,14 @@ figure.testimonial-div .author h5 span {
   .portfolio-card{
       height: 400px;
       transform: translateY(0);
+  }
+
+  .translate-100{
+    transform: translateY(0);
+  }
+
+  .translate-200{
+    transform: translateY(0);
   }
 }
 /* Portfolio css ends here */
