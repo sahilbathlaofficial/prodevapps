@@ -244,8 +244,16 @@ $("body").scroll(function() {
 
 
 // Navbar Animation on scroll
-$(window).scroll(function(){
-	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+$(function() {
+    var header = $(".navbar");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
 });
 
 // Alert on contact details
