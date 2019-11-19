@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://blog.entnetwrk.com/contact.php",
+                url: "https://blog.entnetwrk.com/contact.php",
                 type: "POST",
                 data: {
                     your_name: name,
