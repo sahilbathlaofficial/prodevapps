@@ -17,6 +17,7 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            // send mail
             $.ajax({
                 url: "https://blog.entnetwrk.com/contact.php",
                 type: "POST",
