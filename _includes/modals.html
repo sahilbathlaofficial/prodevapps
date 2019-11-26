@@ -1,10 +1,11 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
-<div class="portfolio-modal-wrapper">
+<div class="portfolio-modal-wrapper hide" id={{post.title | slugify}}>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xs-12">
-                <img class="portfolio-img img-responsive" src="../img/portfolio/{{ post.img }}" />
+                <img class="portfolio-img img-responsive" src="../img/portfolio/{{ post.img }}"
+                    alt="Decabits Portfolio Images" />
             </div>
             <div class="col-md-6 col-xs-12 portfolio-modal-content">
                 <h2>{{ post.title }}</h2>

@@ -17,7 +17,7 @@ $('#portfolio-modal').ready(function(){
                 $('#entnetwrk').removeClass('hide');
                 $('.portfolio-modal').remove('.hide');
         break;
-        case (pathName='/portfolio/careoff..html'):
+        case (pathName='/portfolio/careoff.html'):
                 $('#careoff').removeClass('hide');
                 $('.portfolio-modal').remove('.hide');
         break;
@@ -37,8 +37,8 @@ $('#portfolio-modal').ready(function(){
                 $('#mgr').removeClass('hide');
                 $('.portfolio-modal').remove('.hide');
         break;
-        case (pathName='/portfolio/beyondfited.html'):
-                $('#beyondfited').removeClass('hide');
+        case (pathName='/portfolio/beyondgifted.html'):
+                $('#beyond-gifted').removeClass('hide');
                 $('.portfolio-modal').remove('.hide');
         break;
     }
@@ -48,16 +48,25 @@ $('#career').ready(function(){
     var pathName = window.location.pathname;
     switch (pathName) {
         case (pathName='/career/fullstack/'):
-            $('.fullstack').removeClass('hide');
+            $('#fullstack').removeClass('hide');
             $('.career').remove('.hide');
         break;
         case (pathName='/career/ror/'):
-            $('.ror').removeClass('hide');
+            $('#ror').removeClass('hide');
             $('.career').remove('.hide');
         break;
     }
 });
-
+//   Smooth Transition 
+$('.nav-link').click(function(e){
+    e.preventDefault();
+    var target = $($(this).attr('href'));
+    if(target.length){
+      var scrollTo = target.offset().top;
+      $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+    }
+  });
+  
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -260,3 +269,4 @@ $(function() {
 function submit() {
     alert("The form was submitted");
   }
+
