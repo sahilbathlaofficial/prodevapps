@@ -2,8 +2,8 @@
 title: MGR
 subtitle: Fitness studio management application
 layout: default
-modal-id: 10
-date: 2019-06-01
+modal-id: 3
+date: 2019-09-01
 img: MGR.png
 thumbnail: MGR-thumbnail.png
 alt: MGR

@@ -2,8 +2,9 @@
 title: LCS
 subtitle: Meeting room booking platform
 layout: default
-modal-id: 11
+modal-id: 2
 date: 2019-09-01
+date: Sep 2019
 img: lcs.png
 thumbnail: LCS-thumbnail.png
 alt: LCS

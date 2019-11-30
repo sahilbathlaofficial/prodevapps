@@ -2,8 +2,8 @@
 title: CatchVYBZ
 subtitle: React+ Firebase
 layout: default
-modal-id: 8
-date: 2019-02-03
+modal-id: 5
+date: 2019-09-01
 img: catchvybz1.png
 thumbnail: catchvybz-thumbnail.png
 alt: CatchVYBZ

@@ -3,7 +3,7 @@ title: Wingify
 subtitle: Ruby on Rails SDK
 layout: default
 modal-id: 1
-date: 2019-09-20
+date: 2019-09-01
 img: wingify.png
 thumbnail: wingify-thumbnail.png
 alt: Wingify

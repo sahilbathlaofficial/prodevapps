@@ -2,8 +2,8 @@
 title: Kick Off Nation
 subtitle: Ruby on Rails + Angular
 layout: default
-modal-id: 2
-date: 2015-05-08
+modal-id: 10
+date: 2019-09-02
 img: kickoffnation1.png
 thumbnail: kickoffnation-thumbnail.png
 alt: kickoffnation

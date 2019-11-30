@@ -2,8 +2,8 @@
 title: Myanmar Idol
 subtitle: NodeJs + Firebase + IOS + Android
 layout: default
-modal-id: 4
-date: 2018-03-10
+modal-id: 11
+date: 2019-09-02
 img: myanmar-idol.png
 thumbnail: myanmar-idol-thumbnail.png
 alt: Myanmar Idol

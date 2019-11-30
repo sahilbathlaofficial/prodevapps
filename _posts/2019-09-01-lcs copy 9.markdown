@@ -1,9 +1,9 @@
 ---
-title: Beyond Gifted
+title: Beyond-Gifted
 subtitle: PHP - OpenCart
 layout: default
-modal-id: 3
-date: 2016-07-17
+modal-id: 8
+date: 2019-09-01
 img: beyondgifted2.png
 thumbnail: beyondgifted-thumbnail.png
 alt: beyondgifted

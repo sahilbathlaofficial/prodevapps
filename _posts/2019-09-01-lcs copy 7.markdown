@@ -3,7 +3,7 @@ title: PunchyData
 subtitle: React + Node (Express)/Mongo
 layout: default
 modal-id: 6
-date: 2018-10-15
+date: 2019-09-01
 img: punchydata1.png
 thumbnail: punchydata-thumbnail.png
 alt: Punchydata
