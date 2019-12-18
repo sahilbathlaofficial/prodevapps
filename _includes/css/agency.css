@@ -690,6 +690,12 @@ i.fas{
     height: auto;
     color: #FED136;
 }
+i.fa-address-card{
+    color: white;
+}
+.contact-info li {
+    margin: 12px;
+}
 div.testimonial_card_right p{
     width: 100%;
     color: #134B94;
