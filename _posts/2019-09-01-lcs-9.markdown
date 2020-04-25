@@ -1,6 +1,6 @@
 ---
 title: MGR
-subtitle: Fitness studio management application
+subtitle: Fitness Studio Management Application
 layout: default
 modal-id: 3
 date: 2019-09-01
