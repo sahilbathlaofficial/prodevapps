@@ -75,6 +75,11 @@ h6 {
     background-color: #222;
 }
 
+.Bookmeeting{
+    padding: 4px;
+    margin-bottom: -36px;
+}
+
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;

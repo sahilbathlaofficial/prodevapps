@@ -49,13 +49,35 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <!-- <button class="btn btn-primary btn-sm page-scroll"  >Book Your Meeting</button>
-                    </li> -->
+                        
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                        <button class="Bookmeeting btn btn-primary btn-sm page-scroll"> <a href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/decabits/15min'});return false;">
+                                Book Your Meeting
+                            </a>
+                        </button>
+                        <script>
+                            function isCalendlyEvent(e) {
+                                return e.data.event &&
+                                    e.data.event.indexOf('calendly') === 0;
+                            };
+                            window.addEventListener('message', function (e) {
+                                if (isCalendlyEvent(e) && e.data.event === "calendly.event_scheduled") {
+                                    setTimeout(() => Calendly.closePopupWidget(), 1250)
+                                }
+                            });
+                        </script>
+                        <!-- Calendly link widget end -->
+                        
+                    </li> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
+        
     </nav>
     <div class="landing-page-container" id="landing-page-container">
         <img class="img-responsive" src="img/background-image.svg" alt="">
