@@ -10,7 +10,8 @@ alt:  CareOff
 project-date: November 2018
 client: Nitin Awate
 category: Web & Mobile API Development
-description: We are CareOff, a mobile platform that quickly and reliably connects caregivers to residential care homes, with a high wage for workers and low costs for employers.
+description: CareOff is one of the most useful & helpful mobile applications & web development platforms that quickly & reliably connects caregivers to residential homes to provide help to the patients.Built with utmost precision, CareOff is a website crafted with a vision to help, assist & aid.&nbsp;
+blajccn
 link:  https://careoff.com
 status: Live
 ---

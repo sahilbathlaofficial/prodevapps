@@ -10,7 +10,7 @@ alt: MGR
 project-date: June 2019
 client: MGR
 category: Developing a Fitness studio management application
-description: We, MGR, is an online website that aims to give fitness studios an online platform to publish their schedules, facilities and other perks they are offering their clients. The clients and members can further flexibly book workout classes of their comfort, at their own convenience and budget across Manhattan and Palos.
+description: We, MGR, is an online website that aims to give fitness studios an online platform to publish their schedules, facilities and other perks <br/>they are offering their clients. The clients and members can further flexibly book workout classes of their comfort, at their own convenience and budget across Manhattan and Palos.<br/>bla bla hates me and you can see ...ng their clients. The clients and members can further flexibly book workout classes of their comforng their clients. The clients and members can further flexibly book workout classes of their comfor
 link: https://mgrapp.com/
 status: Live
 ---
