@@ -1,6 +1,6 @@
 ---
 title: Perfect My English
-subtitle: Ruby on Rails
+subtitle: Learning Platform For English
 layout: default
 modal-id: 9
 date: 2019-09-01
@@ -10,6 +10,6 @@ alt: perfectmyenglish
 project-date: April 2014
 client: Perfect My English
 category: Web Development
-description: A simple and intuitive web platform for helping your organisation/schools gain the acceptable level of English standards. The website is easy to understand with a friendly user interface.
+description: Perfect My English is a simple and intuitive web platform for helping organisations/educational institutes improve their students'/employees' command over English language. It is home to quizzes which help students/employees gauge their linguistic ability. The app helps students to fare better in competitive examinations - IELTS, TOEFL, GRE, CAT, GMAT, government entrance exams and the likes. Perfect My English was also featured on NDTV's Gadget Guru. <br/><br/> Key Features - <br/> Students can ascertain how much they know using tests. </br> Scores and improvements can be viewed using graphs. <br/> The web app also gives feedback, based on mistakes made. <br/> The level of difficulty increments or decrements based on scores. <br/><br/> How It Works? <br/> The web app is engined by Ruby on Rails for its hefty capabilities. 
 status: Past
 ---
