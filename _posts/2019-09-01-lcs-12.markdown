@@ -1,6 +1,6 @@
 ---
 title: Wingify
-subtitle: Ruby on Rails SDK
+subtitle: API Integration For Testing
 layout: default
 modal-id: 1
 date: 2019-09-01
@@ -10,7 +10,7 @@ alt: Wingify
 project-date: September 2019
 client: Wingify
 category: Ruby on Rails SDK
-description: VWO SDK is created, supporting ROR, for enabling developers to integrate VWO APIs with ease. Documentation is used to maintain the SDK that would help developers who wishes to integrate or extend the said SDK.
+description: VWO SDK- Wingify’s inhouse app supporting multiple languages like ROR, Dot Net & Golang is created for enabling developers to integrate VWO APIs with ease. Documentation is used to maintain the SDK that would help developers who wish to integrate or extend the said SDK. The software development kit effortlessly lets the backend engineer to generate & fit VWO API calls in different code languages. Provided with a full-fledged documentation of the same, the project assisted the developer in a huge way with step-by-step procedures. <br/><br/> Key Features - <br/> Written in 3 different robust languages. <br/> Enabling API integration. <br/> The procedure provided eases the process. <br/><br/> How It Works? <br/> As mentioned, the program is written in Dot Net, Ruby & Golang, all for the same purpose of producing API calls that are enabled to be integrated easily.
 link: 
 status: Live
 ---

@@ -1,6 +1,6 @@
 ---
 title: Myanmar Idol
-subtitle: NodeJs + Firebase + IOS + Android
+subtitle: Reality Show & Entertainment Web App
 layout: default
 modal-id: 11
 date: 2019-09-02
@@ -10,6 +10,6 @@ alt: Myanmar Idol
 project-date: March 2018
 client: Meraki/MNTV
 category: Web & Mobile Development
-description: Myanmar Idol application was an application built for the singing reality show Season 3 held in Myanmar. The client was Meraki who were linked directly with Myanmar's TV channel MNTV.
+description: Myanmar Idol application was built for the singing reality show Myanmar Idol's season 3. It acted as a convenient portal for the viewers of the show to find performances of the contestants. It also provides recommendations of videos as per the user's interests. <br/><br/> Key Features - <br/> It acts as a common dashboard to find performances of all artists in one place. <br/> It is easy to find recommendations. <br/><br/> How It Works? <br/> The tech stack consists of Ruby on Rails, Firebase, Android and iOS Swift for the powerful web and mobile apps.
 status: Past
 ---
