@@ -10,11 +10,11 @@ alt: Wingify
 project-date: April 2020
 client: Rohit
 category: Web development
-description: My medicine is an e-commerce platform that provides medical products to its customers and is the first digitized platform in Myanmar. All essential quantities will be available at your doorstep with just one click. 
+description: Origo is a Trade Finance facilitation system, the goal of this system is to digitize the entire trade financing process that the organization is currently doing manually. using this system increases the reliability of the information, makes it available to all the departments at one single place. Most importantly it makes very complex commercial calculations precise and accurate to ensure no financial losses due to miscalculations.
 
-
- <br/><br/> Key Features - <br/> Safe and Reliable. <br/> All medicines will be in stock.
- <br/>Easy to check in and check out.<br/>Transactions are safe and Cash on delivery option is also available.<br/> The web app is engined by React Native for its hefty capabilities. <br/> How It Works? <br/> This application is developed using WordPress with PHP and customized CSS. It is the first digitized pharmacy in Myanmar and has received great customer reach due to its seamless and excellent services.
+ <br/><br/> Key Features - <br/> Transactions are safe and fast.<br/>Easy to check in and check out.
+ <br/>Effective navigation and good error handling.<br/> Information flow between multiple departments in a controlled manner. <br/><br/> How It Works? <br/> TThe technology used in developing this website is javascript, React.js, Node.js with Express.js. For backend, we use firebase for prototyping.<br/>
+ This app serves a great deal to the vendors and bridges the customer-seller gap to a great extent.
 link: 
 status: Live
 ---
