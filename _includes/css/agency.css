@@ -3,7 +3,56 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ /* *{
+     margin: 0;
+     padding: 0;
+ } */
+ /* div.top-ribbon{
+    top: 50px;
+ } */
+ .top-ribbon{
+     height: 30px;
+     background-color: #fed136;
+     font-size: 14px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
 
+ }
+ .top-ribbon a{
+     color: blue;
+ }
+ .top-ribbon a:hover{
+     color: black;
+ }
+ .top-ribbon img{
+     height:20px;
+     width: 20px;
+     margin: 2px 2px;
+ }
+
+ .top-ribbon.mobile {
+    display: none;
+  }
+
+  .top-ribbon.desktop {
+      display: block;
+    }
+
+ @media only screen and (max-width: 600px) {
+    .top-ribbon.mobile {
+      height: 50px;
+      display: block;
+    }
+
+    .top-ribbon.desktop {
+        display: none;
+      }
+    
+    .top-ribbon img{
+        margin-right: 6px;
+    }
+  }
  body {
     overflow-x: hidden;
     overflow: scroll !important;
@@ -76,8 +125,7 @@ h6 {
 }
 
 .Bookmeeting{
-    padding: 4px;
-    margin-bottom: -36px;
+    margin : 12px 4px; 
 }
 
 .btn-primary {
@@ -1216,7 +1264,6 @@ body {
     top: 14vw;
 }
 .landing-page-container {
-    margin-top: 56px;
     padding: 0;
     position: relative;
 }
