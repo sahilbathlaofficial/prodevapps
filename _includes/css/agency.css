@@ -10,8 +10,33 @@
  /* div.top-ribbon{
     top: 50px;
  } */
- .top-ribbon{
-     height: 30px;
+ 
+ .button{
+     background-color: #2684ff;
+     border-radius: 4px;
+     padding: 1px 1px;
+     color: white;
+     text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ .buttonn{
+    background-color: #2684ff;
+    border-radius: 4px;
+    padding: 1px 1px;
+    color: white;
+    text-align: center;
+ /* text-decoration: none; */
+ display: inline-block;
+ font-size: 15px;
+ margin: -4px 0;
+ cursor: pointer;
+}
+  .top-ribbon{
+     height: 35px;
      background-color: #fed136;
      font-size: 14px;
      text-align: center;
@@ -20,7 +45,7 @@
 
  }
  .top-ribbon a{
-     color: blue;
+     color: black;
  }
  .top-ribbon a:hover{
      color: black;
