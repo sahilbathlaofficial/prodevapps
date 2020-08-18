@@ -266,6 +266,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #fff;
+    position:fixed;
+    width:100%;
 }
 
 .navbar-default .navbar-brand {
