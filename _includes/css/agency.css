@@ -12,24 +12,24 @@
  } */
  
  .button{
-     background-color: #2684ff;
+     /* background-color: #2684ff; */
      border-radius: 4px;
      padding: 1px 1px;
      color: white;
      text-align: center;
-  /* text-decoration: none; */
+  text-decoration: underline;
   display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
  }
  .buttonn{
-    background-color: #2684ff;
+    /* background-color: #2684ff; */
     border-radius: 4px;
     padding: 1px 1px;
     color: white;
     text-align: center;
- /* text-decoration: none; */
+ text-decoration: underline;
  display: inline-block;
  font-size: 15px;
  margin: -4px 0;
@@ -68,6 +68,9 @@
     .top-ribbon.mobile {
       height: 50px;
       display: block;
+    }
+    .top-ribbon.mobile p {
+        line-height: 3.75
     }
 
     .top-ribbon.desktop {
