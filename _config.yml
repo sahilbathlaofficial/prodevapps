@@ -59,16 +59,7 @@ people:
     - title: stack-overflow
       url: https://stackexchange.com/users/15872566/tanveer-singh
 
-- name: Shubham Gupta
-  pic: 6
-  position: Software Developer
-  social:
-    - title: twitter
-      url: 
-    - title: facebook
-      url: 
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/9671931/shubham-gupta
+
 
 - name: Vishal Raghav
   pic: 8
