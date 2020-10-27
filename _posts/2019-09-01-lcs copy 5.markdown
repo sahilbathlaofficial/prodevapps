@@ -1,6 +1,6 @@
 ---
 title: CareOff
-subtitle: Serverless + Nodejs + Sequelize
+subtitle: Healthcare Services App
 layout: default
 modal-id: 4
 date: 2019-09-01
@@ -10,7 +10,7 @@ alt:  CareOff
 project-date: November 2018
 client: Nitin Awate
 category: Web & Mobile API Development
-description: We are CareOff, a mobile platform that quickly and reliably connects caregivers to residential care homes, with a high wage for workers and low costs for employers.
+description: CareOff is one of the most useful mobile applications & web development platforms that quickly & reliably connects caregivers to residential homes to provide help to the patients. Built with utmost precision, CareOff is a website crafted with a vision to help, assist & aid. The online platform facilitates daily wage caregivers with consistent employment and the residential homes the ease to arrange low-cost caregivers for the disabled. The app removes the problem of overspending, inefficiency & understaffing for both the entities. <br/><br/> Key Features - <br/> Saves time & money of the facility providers.<br/>Gives caregivers the control to manage their schedules & get reasonably paid.<br/>Serves high-quality care to the residents (old/disabled/anyone in need).<br/>Fair, convenient & human group industry.<br/><br/>How It Works?<br/>With now a year into web development, it is rippling its way to masses now. Besides having great features, CareOff also has an extensively strong backend with serverless,  AWS lambda, state machines, simple queue service, simple notification service, and the evergreen Node JS. The database is built on MySQL with Sequelize ORM and a detailed front end built with the framework of Angular 6. The app is extremely powerful and serves a great deal to society.
 link:  https://careoff.com
 status: Live
 ---

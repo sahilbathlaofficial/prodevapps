@@ -1,118 +1,193 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+/>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-M8PBPCW"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden;"
+  ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/Decabits_logofinal-01.png" class="img-responsive img-centered img-logo" alt="company-logo" ></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <!-- <a class="page-scroll" href="#about">About</a> -->
-                    </li>
-                    <li>
-                         <a class="page-scroll" href="#team">Team</a> 
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#testimonial">Testimonial</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#expertise">Our Expertise</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#career-card">career</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        
-                        <!-- Calendly link widget begin -->
-                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                        <button class="Bookmeeting btn btn-primary btn-sm page-scroll"> <a href=""
-                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/decabits/15min'});return false;">
-                                Book Your Meeting
-                            </a>
-                        </button>
-                        <script>
-                            function isCalendlyEvent(e) {
-                                return e.data.event &&
-                                    e.data.event.indexOf('calendly') === 0;
-                            };
-                            window.addEventListener('message', function (e) {
-                                if (isCalendlyEvent(e) && e.data.event === "calendly.event_scheduled") {
-                                    setTimeout(() => Calendly.closePopupWidget(), 1250)
-                                }
-                            });
-                        </script>
-                        <!-- Calendly link widget end -->
-                        
-                    </li> 
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-        
-    </nav>
-    <div class="landing-page-container" id="landing-page-container">
-        <img class="img-responsive" src="img/background-image.svg" alt="">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 landing-page-image-container">
-                    <div class="col-lg-4 col-xs-12 landing-page-text">
-                        <h1><span style="-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #66C7FE; color: transparent;">WE create</span> <br>awesome <br> WEB & MOBILE APPS</h1>
-                        <div class="video">
-                                <a data-fancybox href="https://www.youtube.com/embed/wUvjxucMft8?autoplay=1&mute=1&enablejsapi=1">
-                                    <img id="btn-video" class="img-responsive video-play-button card-img-top img-fluid" src="img/play_button.svg" alt="Play video">
-                                </a>
-                                    <!-- <img id="btn-video" class="img-responsive video-play-button" src="img/play_button.svg" alt="">              -->
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-xs-12 landing-page-image">
-                        <img class="img-responsive" src="img/landing_image.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 just-to-fill">
-                    <div style="height: 72px;"></div>
-                </div>
-                <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
-                    <div style="height: 72px;"></div>
-                </div>
-                <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
-                    <div style="height: 72px;"></div>
-                </div>
-                <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
-                        <div style="height: 72px;"></div>
-                </div>
-            </div>
-        </div>
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="top-ribbon mobile">
+    <p>
+      Checkout what's cooking in our
+      <a href="https://labs.decabits.com" class="buttonn" target="_blank">Decabits Lab</a>
+      <!-- <a href="https://labs.decabits.com" target="_blank"
+        >Decabits Lab. -->
+        <img alt="flask" class="flask_logo" src="img/logos/flask_icon.png" />
+      </a>
+    </p>
+  </div>
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top"
+        ><img
+          src="img/logos/Decabits_logofinal-01.png"
+          class="img-responsive img-centered img-logo"
+          alt="company-logo"
+      /></a>
     </div>
-    <!-- <div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#services">Services</a>
+        </li>
+
+        <li>
+          <a class="page-scroll" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <!-- <a class="page-scroll" href="#about">About</a> -->
+        </li>
+        <li>
+          <a class="page-scroll" href="#team">Team</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#testimonial">Testimonial</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#expertise">Our Expertise</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#career-card">career</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+        <li>
+          <!-- Calendly link widget begin -->
+          <link
+            href="https://assets.calendly.com/assets/external/widget.css"
+            rel="stylesheet"
+          />
+          <script
+            src="https://assets.calendly.com/assets/external/widget.js"
+            type="text/javascript"
+          ></script>
+          <button class="Bookmeeting btn btn-primary btn-sm page-scroll">
+            <a
+              href=""
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/decabits/15min'});return false;"
+            >
+              Book Your Meeting
+            </a>
+          </button>
+          <script>
+            function isCalendlyEvent(e) {
+              return e.data.event && e.data.event.indexOf("calendly") === 0;
+            }
+            window.addEventListener("message", function (e) {
+              if (
+                isCalendlyEvent(e) &&
+                e.data.event === "calendly.event_scheduled"
+              ) {
+                setTimeout(() => Calendly.closePopupWidget(), 1250);
+              }
+            });
+          </script>
+          <!-- Calendly link widget end -->
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+  <div class="top-ribbon desktop">
+    <p>
+      Checkout what's cooking in our
+      <a href="https://labs.decabits.com" class="button" target="_blank">Decabits Lab</a>
+      <!-- <button onclick=""https://labs.decabits.com" target="_blank"">Decabits Lab </button> -->
+      <!-- <a href="https://labs.decabits.com" target="_blank"
+        >Decabits Lab. -->
+        <img alt="flask" class="flask_logo" src="img/logos/flask_icon.png" />
+      </a>
+    </p>
+  </div>
+</nav>
+
+
+
+<div class="landing-page-container" id="landing-page-container">
+  <img class="img-responsive" src="img/background-image.svg" alt="" />
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 landing-page-image-container">
+        <div class="col-lg-4 col-xs-12 landing-page-text">
+          <h1>
+            <span
+              style="
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #66c7fe;
+                color: transparent;
+              "
+              >WE create</span
+            >
+            <br />awesome <br />
+            WEB & MOBILE APPS
+          </h1>
+          <div class="video">
+            <a
+              data-fancybox
+              href="https://www.youtube.com/embed/wUvjxucMft8?autoplay=1&mute=1&enablejsapi=1"
+            >
+              <img
+                id="btn-video"
+                class="img-responsive video-play-button card-img-top img-fluid"
+                src="img/play_button.svg"
+                alt="Play video"
+              />
+            </a>
+            <!-- <img id="btn-video" class="img-responsive video-play-button" src="img/play_button.svg" alt="">              -->
+          </div>
+        </div>
+        <div class="col-lg-8 col-xs-12 landing-page-image">
+          <img class="img-responsive" src="img/landing_image.svg" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 just-to-fill">
+        <div style="height: 72px;"></div>
+      </div>
+      <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
+        <div style="height: 72px;"></div>
+      </div>
+      <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
+        <div style="height: 72px;"></div>
+      </div>
+      <div class="col-lg-0 col-md-6 col-sm-12 col-xs-12 just-to-fill">
+        <div style="height: 72px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div>
         <div class="row margin-zero">
             <div class="col-md-4 col-xs-3 padding-zero"></div>
             <div class="col-md-4 col-xs-6 padding-zero">
@@ -120,7 +195,7 @@
             </div>
             <div class="col-md-4 col-xs-3 padding-zero"></div>
         </div> -->
-        <!-- <div class="row margin-zero">
+<!-- <div class="row margin-zero">
             <div class="col-md-5 padding-zero"></div>
             <div class="col-md-1 padding-zero text-center">
                 <button class="">fjkljlf</button>
@@ -130,7 +205,7 @@
             </div>
             <div class="col-md-5 padding-zero"></div>
         </div> -->
-        <!-- <div class="row margin-zero">
+<!-- <div class="row margin-zero">
            
             <div class="col-md-12 col-xs-12 padding-zero ">
                 <img class="img-responsive" src="img/landing_image.svg" alt="">
@@ -143,20 +218,19 @@
  
     </div> -->
 
-    <!-- Header -->
-    <!-- <header>
+<!-- Header -->
+<!-- <header>
         
          <div class="container">
             <div class="intro-text"> -->
 <!--                 <div class="intro-lead-in">Hello World</div> -->
-                <!-- <div class="intro-heading">We Create Awesome <br> Web & Mobile Apps</div> -->
-                <!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
-            <!-- </div>
+<!-- <div class="intro-heading">We Create Awesome <br> Web & Mobile Apps</div> -->
+<!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
+<!-- </div>
         </div> -->
-    <!-- </header> -->
+<!-- </header> -->
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-
