@@ -1,0 +1,22 @@
+---
+title: PlayTM
+subtitle: Manage your game splits easily 
+layout: default
+modal-id: 1
+date: April 2020
+img: playtms-screens.png
+thumbnail: playtm.jpeg
+alt: PlayTM
+project-date: October 2020
+client: Raj
+category: Mobile development
+description: Built on our very favorite React Native, Playtm is supported on both Ios & Android platforms.The application is created to split won-money easily at the end of games like Poker.The pandemic forced the world to be stuck at home & find entertainment in online games, with that, the need for such an application also came into play!
+ <br/><br/> Key Features -
+ <br/> 1. The application is generic & can be used to settle costs in any game.
+ <br/> 2.Easy user interface & gives precise calculation for “who owes who” questions.
+ <br/> 3. Dynamic & fast output.
+ <br/><br/>How it works?
+ <br/><br/>Playtm is a freshly baked, from the top application built by our developers on react native at the front end. With local storage, the data is temporarily stored while the game lasts. This made the development a cake walk.
+link: https://apps.apple.com/de/app/playtm/id1529682356
+status: Live
+---
