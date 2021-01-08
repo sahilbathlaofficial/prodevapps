@@ -1,0 +1,22 @@
+---
+title: Erfa
+subtitle: An E-cmmerce latform for users to shop garments.
+layout: default
+modal-id: 1
+date: Decamber 2020
+img: erfa-ss.png
+thumbnail: ERFA3 Logo.png
+alt: PlayTM
+project-date: Present
+client: Salman
+category: Mobile development
+description: Built on our very favorite React Native, Erfa is supported on both Ios & Android platforms.The application is created to resell premium products like garments and accesories easily. TWith the progessive need of online shopping as users go digital, Erfa is for multiple vendors as well as users.
+ <br/><br/> Key Features -
+ <br/> 1. The application is generic & consusts of a very user friendly interface.
+ <br/> 2.Transactions through multiple payments makes it a top notch app and of high utility for any kind of consumer.
+ <br/> 3. Dynamic & fast output.
+ <br/><br/>How it works?
+ <br/><br/>Erfa is a freshly baked app, from the top application built by our developers on react native at the front end. With backend on Nodejs, Erfa makes a of a vast project with complicated featured and reusability. 
+link: NA
+status: Live
+---
