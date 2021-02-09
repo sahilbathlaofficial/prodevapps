@@ -1,6 +1,6 @@
 ---
 title: Erfa
-subtitle: An E-commerce platform for users to shop garments.
+subtitle: A reseller E-commerce platform.
 layout: default
 modal-id: 1
 date: December 2020
