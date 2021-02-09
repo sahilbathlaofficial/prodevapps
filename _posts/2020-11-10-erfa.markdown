@@ -1,11 +1,11 @@
 ---
 title: Erfa
-subtitle: An E-cmmerce latform for users to shop garments.
+subtitle: An E-commerce platform for users to shop garments.
 layout: default
 modal-id: 1
-date: Decamber 2020
+date: December 2020
 img: erfa-ss.png
-thumbnail: ERFA3 Logo.png
+thumbnail: erfa.png
 alt: PlayTM
 project-date: Present
 client: Salman
