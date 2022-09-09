@@ -1,3 +1,11 @@
+# Installation 
+
+What things you need to install and how to install them:
+
+1. Download Ruby on your system from this [here](https://www.ruby-lang.org/en/documentation/installation/), if not already installed.
+2. Install Jekyll -v 3.2 on your machine by running following command ``gem install jekyll -v 3.2``
+3. Now run the following command to run the project ``jekyll serve``
+
 Agency Jekyll theme
 ====================
 
