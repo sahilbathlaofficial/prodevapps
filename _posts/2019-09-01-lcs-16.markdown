@@ -16,5 +16,5 @@ description: Origo is a Trade Finance facilitation system, the goal of this syst
  <br/>Effective navigation and good error handling.<br/> Information flow between multiple departments in a controlled manner. <br/><br/> How It Works? <br/> TThe technology used in developing this website is javascript, React.js, Node.js with Express.js. For backend, we use firebase for prototyping.<br/>
  This app serves a great deal to the vendors and bridges the customer-seller gap to a great extent.
 link: 
-status: Live
+status: Past
 ---

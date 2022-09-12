@@ -14,5 +14,5 @@ description: eBooth helps businesses check their insights and provides the featu
  <br/><br/> Key Features - <br/> Works on both Android and IOS. <br/> Image and video(new feature) capture to keep a record of the event. <br/> Code scanner, business, and card scanner for the ease of filling forms.
  <br/><br/> How It Works? <br/> This Application has been developed using C# and is user friendly. The reports are displayed accurately with no error. 
 link: 
-status: Live
+status: Past
 ---

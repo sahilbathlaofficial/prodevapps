@@ -18,5 +18,5 @@ description: Built on our very favorite React Native, Playtm is supported on bot
  <br/><br/>How it works?
  <br/><br/>Playtm is a freshly baked, from the top application built by our developers on react native at the front end. With local storage, the data is temporarily stored while the game lasts. This made the development a cake walk.
 link: https://apps.apple.com/de/app/playtm/id1529682356
-status: Live
+status: Past
 ---

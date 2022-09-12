@@ -1,14 +1,14 @@
 ---
-title: Conceptual Orthopedics
-subtitle: Web Platform which helps MBBS graduates
+title: Kontoro
+subtitle: Kontoro is an A/B testing tool
 layout: default
 modal-id: 1
 date: June 2020
-img: ortho_title.png
-thumbnail: ortho_thumbnails.png
+img: kontoro.png
+thumbnail: kontoro-thumbnail.png
 alt: Wingify
 project-date: June 2020
-client: Jitender
+client: Optiphoenix
 category: Web development
 description: Conceptual orthopedic application is a simple web platform that helps MBBS graduates who are keen on pursuing further studies. All topics related to the subject are revised and edited to suit the current syllabus. Digital learning has paved the way for a better understanding of topics with excellent tutors who relentlessly work hard to conceptualize learning.
 

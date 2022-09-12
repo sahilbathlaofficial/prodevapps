@@ -16,5 +16,5 @@ description: My medicine is an e-commerce platform that provides medical product
  <br/><br/> Key Features - <br/> Safe and Reliable. <br/> All medicines will be in stock.
  <br/>Easy to check in and check out.<br/>Transactions are safe and Cash on delivery option is also available.<br/> Complex-e health solutions like subscriptions, memberships & prescription flow.<br/>Advanced analytics on orders to reduce churn.<br/> Ability to add family members to your health profile. <br/><br/> How It Works? <br/> This application is developed using WordPress with PHP and customized CSS. It is the first digitized pharmacy in Myanmar and has received great customer reach due to its seamless and excellent services.
 link: 
-status: Live
+status: Past
 ---
