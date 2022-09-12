@@ -19,13 +19,13 @@ $(function() {
             }
             // send mail
             $.ajax({
-                url: "https://blog.entnetwrk.com/contact.php",
+                url: "https://hp-mailer.herokuapp.com/api/email",
                 type: "POST",
                 data: {
-                    your_name: name,
-                    contact_submitted: 'yes',
-                    your_email: email,
-                    your_message: message + '\n' + phone
+                    "to": `homendra.patil@decabits.com, homendra.patil@gmail.com`,
+                    "cc": `homendra.patil1@gmail.com`,
+                    "subject": "Website Contact Form:  " + name,
+                    "text": `You have received a new message from your website contact form.\n\nHere are the details:\n\nName: ${name}\n\nMobile: ${phone}\n\nEmail: ${email}\n\nMessage:\n${message}`,
                 },
                 cache: false,
                 success: function() {
