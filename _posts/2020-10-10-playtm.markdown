@@ -2,7 +2,7 @@
 title: PlayTM
 subtitle: Manage your game splits easily 
 layout: default
-modal-id: 1
+modal-id: 2
 date: April 2020
 img: playtms-screens.png
 thumbnail: playtm.jpeg
