@@ -1296,6 +1296,7 @@ body {
 .landing-page-container {
     padding: 0;
     position: relative;
+    padding-top: 5vh;
 }
 .landing-page-text{
     color: #66C7FE;
@@ -1637,6 +1638,7 @@ div.testimonialcontent{
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     /* height: 370px; */
     height: auto;
+    height: 420px;
 }
 
 .portfolio-card:hover{
@@ -1733,7 +1735,7 @@ div.testimonialcontent{
 /* Services starts here */
 @media only screen and (max-width: 600px) {
     .service-content{
-        height:280px;
+        min-height:280px;
     }
   }
   @media only screen and (min-width: 600px) {
@@ -1755,6 +1757,14 @@ div.testimonialcontent{
     height: 475px !important;
 }
 
+.about-us-main {
+    margin-top: 0;
+}
 
+@media only screen and (max-width: 600px) {
+    .about-us-main {
+        margin-top: 80px;
+    }
+}
 
 /* Services ends here */

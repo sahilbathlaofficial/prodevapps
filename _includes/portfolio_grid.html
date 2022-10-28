@@ -44,22 +44,33 @@
                 <div style="padding: 30px;">
                     <h3 class="text-center" style="color:#999"><span style="color:#2684FF">Past </span>Projects</h3>
                 </div>
+                {% assign index = 0 %}
                 {% for post in site.posts %}
-                  {% if post.status == "Past" %}
-                    <div class="col-md-4 col-sm-6 portfolio-item" id="portfolio-grid-card">
-                        <a href="#{{ post.title | slugify }}" class="" data-toggle="modal" style="color: black;text-decoration:none;">
-                            <div class="card portfolio-card" style="border-radius:10px;background-color: #fff;">
-                                    <img src="img/portfolio/{{ post.thumbnail }}" class="card-img-top img-responsive img-centered" alt="Live projects" style="width:100%;border-radius: 10px 10px 0px 0px;">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title" style="color: #222;">{{ post.title }}</h5>
-                                        <div style="padding: 8px;">
-                                            <p class="card-text vertical-center" style="color: #555; ">{{ post.subtitle }}</p>
+                        {% if post.status == "Past" %}
+                            {% assign value = index | modulo:3 %}
+                            {% if value == 0 %}
+                                <div class="row" style="margin: 0 0 15px;">
+                            {% endif %}
+                            <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item">
+                                <a href="#{{ post.title | slugify }}" class="" data-toggle="modal" style="color: black;text-decoration:none;">
+                                    <div class="card portfolio-card" style="border-radius:10px;background-color: #fff;">
+                                        <div class="card-body text-center">
+                                            <img src="img/portfolio/{{ post.thumbnail }}" class="card-img-top img-responsive img-centered" alt="Live projects" style="width: 100%;border-radius:10px 10px 0px 0px;">
+                                            <div class="card-title" style="color: #222; font-size: 20px;">{{ post.title }}</div>
+                                            <div style="padding: 8px;">
+                                                <p class="card-text vertical-center" style="color: #555; ">{{ post.subtitle }}</p>
+                                            </div>
                                         </div>
                                     </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    {% endif %}
+                            {% assign index = index | plus: 1 %}
+                            {% assign value = index | modulo:3 %}
+                            {% if value == 0 %}
+                                </div>
+                            {% endif %}
+
+                        {% endif %}
                 {% endfor %}
             </div>
         </div>

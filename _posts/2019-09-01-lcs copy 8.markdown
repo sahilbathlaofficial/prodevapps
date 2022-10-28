@@ -10,7 +10,7 @@ alt: Entnetwrk
 project-date: April 2018
 client: Entnetwrk
 category: Web & Mobile API Development
-description: Entnetwrk is the first of its kind social entertainment networking platform to bring people of the entertainment industry and all those seeking to be a part of it under one roof. It provides the aspirants, audience & the famous to connect with each other for new talent,  to display their skills & to find opportunities.<br/><br/>Key Features - <br/>Entertaining & simple.<br/>Connects people from all around the globe.<br/>Chance to fame.<br/><br/>How It Works?<br/>EntNetwrk has a strong server area deployment of Laravel (PHP). It uses one of the most common databases of MySQL & ElasticSearch. On the front end of the website, Swift & Android creates an edge with user friendliness.
+description: Entnetwrk is the first of its kind social entertainment networking platform to bring people of the entertainment industry and all those seeking to be a part of it under one roof. It provides the aspirants, audience & the famous to connect with each other for new talent,  to display their skills & to find opportunities.<br/><br/><b>Key Features - </b> <br/>Entertaining & simple.<br/>Connects people from all around the globe.<br/>Chance to fame.<br/><br/><b>Tech Stack - </b><br/>Laravel,PHP, Elasticsearch and MySQL.
 link: https://entnetwrk.com/
-status: Live
+status: Past
 ---

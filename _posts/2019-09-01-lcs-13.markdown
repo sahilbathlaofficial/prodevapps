@@ -8,11 +8,11 @@ img: ebooth_title.png
 thumbnail: ebooth_thumbnail.png
 alt: eBooth
 project-date: June 2020
-client: Jeff Swan
+client: Ebooth Pvt Ltd
 category: Web analytics
-description: eBooth helps businesses check their insights and provides the features, tools, and technology to organize, manage, and engage events to increase registrations and satisfy the requirements of attendees. 
- <br/><br/> Key Features - <br/> Works on both Android and IOS. <br/> Image and video(new feature) capture to keep a record of the event. <br/> Code scanner, business, and card scanner for the ease of filling forms.
- <br/><br/> How It Works? <br/> This Application has been developed using C# and is user friendly. The reports are displayed accurately with no error. 
+description: eBooth helps businesses check their insights and provides the features, tools, and technology to organize, manage, and engage events to increase registrations and satisfy the requirements of attendees.
+ <br/><br/> <b>Key Features - </b> <br/> Business events. <br/> Live video(new feature) capture to keep a record of the event. <br/> Code scanner for business cards and tickets for the ease of filling forms.
+ <br/><br/> <b>Tech Stack - </b> <br/> Objective C, AWS Cloud.
 link: 
-status: Live
+status: Past
 ---

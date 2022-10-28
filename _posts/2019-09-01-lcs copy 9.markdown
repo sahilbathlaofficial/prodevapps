@@ -10,7 +10,7 @@ alt: beyondgifted
 project-date: March 2015
 client: CC Bunghalo
 category: Web Development
-description: Beyond Gifted is an e-commerce store, selling customizable gifts. Customers can build their cart online and check out using a fast and reliable interface. The digital store enables users to procure the products they need, while leveraging the benefits of an online shopping experience. It benefits the sellers by helping them generate easy profits without a physical storefront. The web development platform makes sales and buying hassle-free and convenient. <br/><br/> Key Features - <br/>Fast and reliable checkout.<br/>User-friendly interface.<br/>All advantages of an online shopping experience.<br/><br/>How It Works?<br/>The website design uses PHP, and was successful in boosting the sale of products significantly.
+description: Beyond Gifted is an e-commerce store, selling customizable gifts. Customers can build their cart online and check out using a fast and reliable interface. The digital store enables users to procure the products they need, while leveraging the benefits of an online shopping experience. It benefits the sellers by helping them generate easy profits without a physical storefront. The web development platform makes sales and buying hassle-free and convenient. <br/><br/> <b>Key Features - </b> <br/>Fast and reliable checkout.<br/>User-friendly interface.<br/>All advantages of an online shopping experience.<br/><br/><b>Tech Stack - </b><br/>PHP, Opencart.
 link: https://www.beyondgifted.com/
-status: Live
+status: Past
 ---

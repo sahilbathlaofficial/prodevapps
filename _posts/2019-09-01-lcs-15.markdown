@@ -1,6 +1,6 @@
 ---
 title: My Medicine
-subtitle: First Digitized Platform in Myanmar
+subtitle: First Digitized Health Platform in Myanmar
 layout: default
 modal-id: 1
 date: July 2020
@@ -10,11 +10,11 @@ alt: Wingify
 project-date: July 2020
 client: KBZ
 category: Web development
-description: My medicine is an e-commerce platform that provides medical products to its customers and is the first digitized platform in Myanmar. All essential quantities will be available at your doorstep with just one click. 
+description: My-medicine was an e-commerce platform that provided medical products to its customers and was the first digitized platform in Myanmar. 
 
 
- <br/><br/> Key Features - <br/> Safe and Reliable. <br/> All medicines will be in stock.
- <br/>Easy to check in and check out.<br/>Transactions are safe and Cash on delivery option is also available.<br/> Complex-e health solutions like subscriptions, memberships & prescription flow.<br/>Advanced analytics on orders to reduce churn.<br/> Ability to add family members to your health profile. <br/><br/> How It Works? <br/> This application is developed using WordPress with PHP and customized CSS. It is the first digitized pharmacy in Myanmar and has received great customer reach due to its seamless and excellent services.
+ <br/><br/> <b>Key Features - </b> <br/> Safe and Reliable. <br/> All medicines will be in stock.
+ <br/>Easy to check in and check out.<br/>Transactions are safe and Cash on delivery option is also available.<br/> Complex-e health solutions like subscriptions, memberships & prescription flow.<br/>Advanced analytics on orders to reduce churn.<br/> Ability to add family members to your health profile. <br/><br/> <b>Tech Stack - </b> <br/> Wordpress, PHP, AWS Cloud and NodeJs Lambda.
 link: 
-status: Live
+status: Past
 ---
