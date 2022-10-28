@@ -5,15 +5,17 @@ layout: default
 modal-id: 2
 date: June 2020
 img: ortho_title.png
-thumbnail: conceptual-thumbnail.jpeg
+thumbnail: conceptual-thumbnail.png
 alt: Conceptual Orthopedics
-project-date: 
-client: 
+project-date: DECEMBER 2020
+client: Conceptual Orthopedics
 category: Web development
 description: Conceptual orthopedic application is a simple web platform that helps MBBS graduates who are keen on pursuing further studies. All topics related to the subject are revised and edited to suit the current syllabus. Digital learning has paved the way for a better understanding of topics with excellent tutors who relentlessly work hard to conceptualize learning.
 
- <br/><br/> Key Features - <br/> Works on both IOS and android. <br/> Question Banks, PDF’s, Text Books, Videos ( live and recorded), Assessments are available for enhancing the learning of a student. <br/> Code scanner, business, and card scanner for the ease of filling forms.
- <br/>Sharing of links is possible.<br/>Students can buy plans( video lectures)  according to their needs.<br/><br/> How It Works? <br/> The web app is engined by React Native for its hefty capabilities. 
+ <br/><br/> <b>Key Features - </b> <br/> <b>PWA</b> app that works on both IOS and android. <br/> Question Banks, PDF’s, Text Books, Videos (live and recorded), Assessments are available for enhancing the learning of a student.
+ <br/>Courses sharing disable using high security and encryption.
+ <br/>Plans and subscription for students.<br/><br/> <b>
+ Tech Stack - </b> <br/> React Native, Python, AWS Cloud. 
 link: 
 status: Past
 ---

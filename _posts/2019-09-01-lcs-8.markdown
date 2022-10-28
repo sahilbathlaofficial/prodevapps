@@ -8,9 +8,9 @@ img: catchvybz1.png
 thumbnail: catchvybz-thumbnail.png
 alt: CatchVYBZ
 project-date: February 2019
-client: Deirdre Neufeld
+client: CatchVybz PVT LTD
 category: Web & Mobile API Development
-description: Styled & tailored from scratch, CatchVybz has a vibe of its own kind. Find & explore events, dining, clubs or even offbeat hang out spots near you with genuine & reliable reviews. <br/><br/> Key Features - <br/> Filters outdoor places as per the customer’s mood. <br/> Eradicates the problem of fake reviews and vibe. <br/> Makes search easy and simple. <br/><br/> How It Works? </br> The app's technology pyramid is comprised by React Native, Expokit & Redux (state management) making the core of its frontend. The project is engined by robust backend systems like Firebase stack, GCP, Node JS, PostgreSQL & ElasticSearch for specific data handling.
+description: Styled & tailored from scratch, CatchVybz has a vibe of its own kind. Find & explore events, dining, clubs or even offbeat hang out spots near you with genuine & reliable reviews. <br/><br/> <b>Key Features - </b> <br/> Find outdoor places as per the customer’s mood. <br/> Eradicates the problem of fake reviews and vibe. <br/> Makes searching for your vibe easy and simple. <br/><br/> <b>Tech Stack - </b> </br> React Native, Firebase stack, GCP, Node JS, PostgreSQL & ElasticSearch.
 status: Past
 link: 
 ---

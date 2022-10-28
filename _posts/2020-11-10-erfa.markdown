@@ -11,12 +11,12 @@ project-date: December 2020
 client: Salman
 category: Mobile development
 description: Built on our very favorite React Native, Erfa is supported on both Ios & Android platforms.The application is created to resell premium products like garments and accesories easily. TWith the progessive need of online shopping as users go digital, Erfa is for multiple vendors as well as users.
- <br/><br/> Key Features -
- <br/> 1. The application is generic & consusts of a very user friendly interface.
- <br/> 2.Transactions through multiple payments makes it a top notch app and of high utility for any kind of consumer.
+ <br/><br/> <b>Key Features - </b>
+ <br/> 1. The application is generic & consists of a very user friendly interface
+ <br/> 2. Transactions through multiple payments makes it a top notch app and of high utility for any kind of consumer.
  <br/> 3. Dynamic & fast output.
- <br/><br/>How it works?
- <br/><br/>Erfa is a freshly baked app, from the top application built by our developers on react native at the front end. With backend on Nodejs, Erfa makes a of a vast project with complicated featured and reusability. 
-link: http://onelink.to/tsdyvt
+ <br/><br/><b>Tech Stack - </b>
+ <br/><br/>NodeJs, React Native, React JS.
+link: 
 status: Past
 ---

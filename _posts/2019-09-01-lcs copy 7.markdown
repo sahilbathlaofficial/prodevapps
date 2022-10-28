@@ -10,7 +10,7 @@ alt: Punchydata
 project-date: October 2018
 client: Punchydata
 category: Web Analytics
-description: Punchy Data collates information from various marketing channels - Google, Facebook, and sends it to Google Analytics and Pipedrive. It provides a dashboard where the user can see ROI generated from various marketing channels. Analysis using the cumulative reports from multiple channels is more likely to evaluate ROI than relying wholly and exclusively on a single channel. Punchy Data empowers the user to analyse how well their marketing campaign is doing and also the key areas where it is doing competently well. <br/><br/> Key Features - <br/> A common dashboard for all your reports. <br/> Deployment of analytics to enable evaluation of where leads are generated. <br/>Doesn’t base its conclusions on a single source of information. <br/><br/>How It Works? <br/> The website design uses a combination of React Js, Node Js (Express) and Mongo DB to display web analytics reports seamlessly.
-link: https://punchydata.com/
+description: Punchy Data collates information from various marketing channels - Google, Facebook, and sends it to Google Analytics and Pipedrive. It provides a dashboard where the user can see ROI generated from various marketing channels. Analysis using the cumulative reports from multiple channels is more likely to evaluate ROI than relying wholly and exclusively on a single channel. Punchy Data empowers the user to analyse how well their marketing campaign is doing and also the key areas where it is doing competently well. <br/><br/> <b>Key Features - </b> <br/> A common dashboard for all your reports. <br/> Deployment of analytics to enable evaluation of where leads are generated. <br/>Doesn’t base its conclusions on a single source of information. <br/><br/><b>Tech Stack - </b> <br/> React Js, Node Js (Express) and MongoDB.
+link: 
 status: Past
 ---

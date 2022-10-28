@@ -1,5 +1,5 @@
 ---
-title: Shopify
+title: Webstores
 subtitle: E-commerce platform for online stores
 layout: default
 modal-id: 1
@@ -7,13 +7,12 @@ date: September 2022
 img: shopify.png
 thumbnail: shopify-thumbnail.png
 alt: Wingify
-project-date: Present
-client: Shopify
+project-date: Ongoing
+client: Social Imprints
 category: Web development
-description: Shopify is an e-commerce platform for online stores and retail point-of-sale system.<br/>
- We are currently building and handlings around 40 stores for various clients of Social Imprints such as Stripe, Adobe. Elastic etc. We are also maintaining over 10 Shopify Custom Apps for many use case like promo code generation, E-Wallet etc.
+description: We are currently building and handling around 40 stores for various clients of Social Imprints such as Stripe, Adobe. Elastic etc. We are also maintaining over 10 Shopify Custom Apps for many use cases like promo code generation, E-Wallet etc.
 
- <br/><br/> Key Features - <br/> Building and managing approximately 40 stores for various Social Imprints clients. <br/> Managing over 10 Shopify Custom Apps for various use cases, including the creation of promo codes and e-wallets.<br/><br/> How It Works? <br/> The tech pyramid of shopify is formed by Shopify, JavaScript, Zapier and Ruby on Rails.
+ <br/><br/> <b>Key Features - </b> <br/> Building and managing approximately 40 stores for various Social Imprints clients. <br/> Managing over 10 Shopify Custom Apps for various use cases, including the creation of promo codes and e-wallets.<br/><br/> <b>Tech Stack - </b> <br/> Shopify, JavaScript, Zapier and Ruby on Rails.
 link: 
 status: Live
 ---

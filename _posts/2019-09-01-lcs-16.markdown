@@ -8,13 +8,15 @@ img: origo_title.png
 thumbnail: origo_thumbnail.png
 alt: Wingify
 project-date: April 2020
-client: Rohit
+client: Origo Pvt Ltd
 category: Web development
-description: Origo is a Trade Finance facilitation system, the goal of this system is to digitize the entire trade financing process that the organization is currently doing manually. using this system increases the reliability of the information, makes it available to all the departments at one single place. Most importantly it makes very complex commercial calculations precise and accurate to ensure no financial losses due to miscalculations.
+description: Origo is a Trade Finance facilitation system, the goal of this system is to digitize the entire trade financing process that the organization is currently doing manually. Using this system increases the reliability of the information, making it available to all the departments at one single place. Most importantly it makes very complex commercial calculations precise and accurate to ensure no financial losses due to miscalculations.
 
- <br/><br/> Key Features - <br/> Transactions are safe and fast.<br/>Easy to check in and check out.
- <br/>Effective navigation and good error handling.<br/> Information flow between multiple departments in a controlled manner. <br/><br/> How It Works? <br/> TThe technology used in developing this website is javascript, React.js, Node.js with Express.js. For backend, we use firebase for prototyping.<br/>
- This app serves a great deal to the vendors and bridges the customer-seller gap to a great extent.
+ <br/><br/> <b>Key Features - </b> <br/> Transactions are safe and fast.
+ <br/>Easy to check in and check out. 
+ <br/>Effective navigation and good error handling.
+ <br/>Information flows between multiple departments in a controlled manner.
+ <br/><br/> <b>Tech Stack - </b> <br/> React JS, Node JS, Firebase, Google Cloud.
 link: 
 status: Past
 ---

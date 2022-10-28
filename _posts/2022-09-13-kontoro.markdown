@@ -7,12 +7,12 @@ date: Sepember 2022
 img: kontoro.png
 thumbnail: kontoro-thumbnail.png
 alt: Kontoro
-project-date: Present
+project-date: Ongoing
 client: Optiphoenix
 category: Web development
 description: Kontoro offers a hassle-free A/B testing tool to help fast-growing businesses accelerate their growth. A/B testing (also known as split testing or bucket testing) is a technique for comparing two versions of a webpage or app to see which one performs better.
 
- <br/><br/> Key Features - <br/> Kontoro provides an easy-to-use A/B testing tool. <br/> API integration is extremely simple and straightforward for well-known technologies such as NodeJS, Swift, Python, Flutter, and others.<br/><br/> How It Works? <br/> For its robust capabilities, the website is powered by a combination of ReactJS on frontend, Ruby on Rails for backend, and GO for it's high performance computation intensive task. 
-link: 
+ <br/><br/> <b>Key Features - </b> <br/> Kontoro provides an easy-to-use A/B testing tool. <br/> API integration is extremely simple and straightforward for well-known technologies such as NodeJS, Swift, Python, Flutter, and others.<br/><br/> <b>Tech Stack - </b> <br/> For its robust capabilities, the website is powered by a combination of ReactJS on frontend, Ruby on Rails for backend, and GO for it's high performance computation intensive task. 
+link: https://app.kontorolabs.com/
 status: Live
 ---
