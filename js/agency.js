@@ -70,6 +70,15 @@ $("#career-close3").click(function(){
     $("body").css('overflow','unset');
 });
 
+$("#btn-career4").click(function() {
+    $("#career4").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+
+$("#career-close4").click(function(){
+    $("#career4").css('display', 'none');
+    $("body").css('overflow','unset');
+});
 $("#bt-close-video").click(function() {
     $("#video").css('display', 'none');
     $("body").css('overflow','unset');

@@ -1141,6 +1141,8 @@ ul.social-buttons li a:active {
 }
 .career-card img{
     object-fit: cover;
+    width: 100%;
+    height: 320px;
 }
 .career-card h4{
     color: #fed136;
@@ -1219,7 +1221,7 @@ ul.social-buttons li a:active {
     background-color: #fff !important; /* Fallback color */
     background-color: #fff !important;
 }
-#career3{
+#career3, #career4{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index:1111; /* Sit on top */
