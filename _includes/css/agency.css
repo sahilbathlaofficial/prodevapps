@@ -1770,3 +1770,27 @@ div.testimonialcontent{
 }
 
 /* Services ends here */
+
+/* Footer floating logo */
+.decabits_custom_software {
+    position: fixed;
+    background: #FFF;
+    bottom: 36px;
+    left: 36px;
+    z-index: 100;
+    -webkit-box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0 0 8px 4px rgba(0,0,0,.16);
+    box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
+    border-radius: 4px;
+}
+
+.decabits_custom_software > img {
+    margin-top: 10px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .decabits_custom_software {
+        width: 100px;
+    }
+}
+/* Footer floating log ends here */
