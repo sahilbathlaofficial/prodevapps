@@ -1778,6 +1778,7 @@ div.testimonialcontent{
     bottom: 36px;
     left: 36px;
     z-index: 100;
+    width: 124px;
     -webkit-box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
     -moz-box-shadow: 0 0 8px 4px rgba(0,0,0,.16);
     box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
