@@ -14,5 +14,5 @@ description: Kontoro offers a hassle-free A/B testing tool to help fast-growing 
 
  <br/><br/> <b>Key Features - </b> <br/> Kontoro provides an easy-to-use A/B testing tool. <br/> API integration is extremely simple and straightforward for well-known technologies such as NodeJS, Swift, Python, Flutter, and others.<br/><br/> <b>Tech Stack - </b> <br/> For its robust capabilities, the website is powered by a combination of ReactJS on frontend, Ruby on Rails for backend, and GO for it's high performance computation intensive task. 
 link: https://app.kontorolabs.com/
-status: Live
+status: NA
 ---
