@@ -1,0 +1,358 @@
+.frame-1-body {
+  background-image: url(/img/bd-campaigns/bd-bg-wave.svg) !important;
+  background-size: cover;
+  background-color: #f4f3ee;
+}
+
+.main-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 92px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.bd-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.bd-main .input-group {
+  box-shadow: -4px 4px 0px black !important;
+}
+.bd-main .form-control {
+  border-radius: 0px;
+  color: #000;
+}
+.bd-main .input-group-addon {
+  border-radius: 0px;
+}
+.email {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  height: 53px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  /* box-shadow: -4px 4px 0px #000000; */
+  order: 0;
+  align-self: stretch;
+}
+.button-1 {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* width: 151px; */
+  height: 43px !important;
+  background: #000000 !important;
+  border: 2px solid #000000 !important;
+  /* box-shadow: -4px 4px 0px #000000 !important; */
+  color: white !important;
+  order: 0;
+  align-self: stretch;
+}
+
+.bd-main-img {
+  max-width: 400px;
+  margin-top: 80px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(#eecc28, #fd7604);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bd-sponsor-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: unset;
+}
+.bd-sponsor-logo {
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.bd-waw-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  letter-spacing: 0.005em;
+  background: linear-gradient(92.42deg, #b79300 3.17%, #ffcc00 93.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bd-waw-sub-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 144%;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.waw-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 184.5%;
+
+  color: #000000;
+}
+
+.waw-button {
+  width: 264px;
+  height: 76px;
+  border-radius: 10px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 144%;
+
+  text-transform: capitalize;
+
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.waw-button span {
+  background: linear-gradient(91.02deg, #ffcc00 8.29%, #b79300 96.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.waw-row, .waw-row {
+  margin-top: 60px;
+}
+
+.waw-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 10px;
+}
+
+.box-heading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 144%;
+  background-color: white;
+  padding-left: 27px;
+  /* or 40px */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.box-para {
+  padding: 0 43px 0 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 144%;
+  background-color: white;
+  /* or 32px */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.oe-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  position: relative;
+  justify-content: center;
+  text-transform: unset;
+}
+
+.oe-heading.main {
+  padding-top: 60px;
+}
+
+.oe-heading.sub {
+  font-size: 64px;
+}
+
+.oe-heading span {
+  background: linear-gradient(92.42deg, #b79300 3.17%, #ffcc00 93.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.card-wrapper {
+  margin-bottom: 16px;
+}
+
+.frame-1-card {
+  min-height: 600px;
+  color: #ffffff;
+  position: relative;
+}
+.frame-1-card.dev {
+  min-height: 409px;
+  background-color: #ffffff;
+}
+
+.frame-1-card-img-overlay {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 393px;
+  padding: 20px;
+}
+
+.frame-1-card-img-top{
+  padding: 24px 48px;
+    width: 100%;
+}
+
+.frame-1-card-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  text-transform: none;
+}
+
+.frame-1-card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+}
+.card-img {
+  min-height: 600px;
+  width: 100%;
+}
+
+.frame-1-card-body {
+  background: rgba(31, 25, 25, 0.75);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  padding: 20px;
+  color: #ffffff;
+}
+.frame-1-card-body span {
+  font-weight: 700;
+}
+
+.oe-heading3 h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 144%;
+  text-transform: capitalize;
+  color: #000000;
+  position: relative;
+  justify-content: center;
+}
+.oe-heading3 span {
+  /* background: linear-gradient(
+    92.42deg,
+    #b79300 3.17%,
+    #000000 0%,
+    #ffcc00 93.34%
+  ); */
+  background: linear-gradient(90.53deg, #B79300 37.9%, #FFCC00 76.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.oe-button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 5px 0 80px;
+}
+
+.oe-button span {
+  background: linear-gradient(91.02deg, #ffcc00 8.29%, #b79300 96.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#connect-button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .frame-1-body {
+    display: block;
+  }
+}
+
+/* Campaign Modal */
+
+.contact-modal .close {
+  float: right;
+    font-size: 22.5px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: none;
+}
+.contact-modal .modal-body {
+  padding: 10px 20px;
+}
+.contact-modal .modal-footer {
+  padding: 10px 0;
+}
