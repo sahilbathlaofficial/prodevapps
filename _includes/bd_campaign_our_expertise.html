@@ -1,0 +1,171 @@
+<section id="our-expertise">
+  <div class="container">
+    <div class="row pt-5">
+
+
+      {% for project in page.projects %}
+      <div class="col-sm-12 col-md-6 col-lg-4 card-wrapper">
+        <div class="frame-1-card card">
+          <img
+            src="{{project.image}}"
+            alt=""
+            class="card-img"
+          />
+          <div
+            class="card-img-overlay frame-1-card-img-overlay text-white d-flex flex-column"
+          >
+            <h3 class="card-title frame-1-card-title">{{ project.name }}</h3>
+            <p class="card-text frame-1-card-text">{{ project.info }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="row text-center pt-5">
+      <div class="col-sm-12">
+        <h3 class="oe-heading main"><span>Our Expertise</span></h3>
+      </div>
+      <div class="col-sm-12">
+        <h3 class="oe-heading sub">
+          Hire <span>{{ page.developer_type }}</span> As Per Your Needs test
+        </h3>
+      </div>
+    </div>
+
+    <div class="row waw-row">
+      {% for expertise in page.expertise %}
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card frame-1-card dev">
+          <img
+            src="{{ expertise.image }}"
+            alt=""
+            class="frame-1-card-img-top p-5"
+          />
+          <div class="card-body frame-1-card-body">
+            <p><span>Name:</span> {{ expertise.name }}</p>
+            <p><span>Exp:</span> {{ expertise.experience }}</p>
+            <p>{{ expertise.info }}</p>
+            <p><span>Rating:</span> {{ expertise.rating }}</p>
+            <p>
+              <img src="/img/bd-campaigns/phone.png" alt="" /> {{
+              expertise.phone }}
+            </p>
+            <p>
+              <img src="/img/bd-campaigns/mail.png" alt="" /> {{ expertise.email
+              }}
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row oe-heading3 text-center waw-row">
+      <h3>Need anything <span>specific</span> ? let's connect</h3>
+    </div>
+    <div class="row oe-button pt-5">
+      <button
+        class="waw-button"
+        data-toggle="modal"
+        data-target="#myModalHorizontal"
+      >
+        <span>Contact Us</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- Modal -->
+<div
+  class="contact-modal modal fade"
+  id="myModalHorizontal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Connect with us</h4>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div id="success"></div>
+        <form class="form-horizontal" id="contactForm" role="form">
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="name">Your Name</label>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your name..."
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="email">Your Email</label>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Your email..."
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="phone">Your Phone</label>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="phone"
+                placeholder="Your phone..."
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="message"
+              >Your Message</label
+            >
+            <div class="col-sm-10">
+              <textarea
+                type="text"
+                class="form-control"
+                id="message"
+                placeholder="Your message..."
+              ></textarea>
+            </div>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .modal-body .form-horizontal .col-sm-2,
+  .modal-body .form-horizontal .col-sm-10 {
+    width: 100%;
+  }
+
+  .modal-body .form-horizontal .control-label {
+    text-align: left;
+  }
+  .modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+  }
+</style>

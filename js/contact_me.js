@@ -1,4 +1,10 @@
 $(function() {
+    $("#connect-button").on('click',function(e) {
+        e.preventDefault();
+        var email = $("#connect-email").val();
+        $("input#email").val(email)
+        $('#myModalHorizontal').modal('show');
+    })
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -39,8 +45,12 @@ $(function() {
                     $('#success > .alert-success')
                         .append('</div>');
 
-                    //clear all fields
+                    //clear & reset all fields
                     $('#contactForm').trigger("reset");
+                    if($('#myModalHorizontal')){
+                        $('#myModalHorizontal').modal('hide');
+                        $("#connect-email").val('');
+                    }
                 },
                 error: function() {
                     // Fail message
