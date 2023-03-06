@@ -32,7 +32,10 @@
         </h3>
       </div>
     </div>
-
+<!-- <p>
+              <img src="/img/bd-campaigns/phone.png" alt="" /> {{
+              expertise.phone }}
+            </p> -->
     <div class="row waw-row">
       {% for expertise in page.expertise %}
       <div class="col-sm-12 col-md-6 col-lg-4">
@@ -47,10 +50,7 @@
             <p><span>Exp:</span> {{ expertise.experience }}</p>
             <p>{{ expertise.info }}</p>
             <p><span>Rating:</span> {{ expertise.rating }}</p>
-            <p>
-              <img src="/img/bd-campaigns/phone.png" alt="" /> {{
-              expertise.phone }}
-            </p>
+            
             <p>
               <img src="/img/bd-campaigns/mail.png" alt="" /> {{ expertise.email
               }}
