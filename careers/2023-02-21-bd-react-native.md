@@ -1,13 +1,13 @@
 ---
 layout: bd_campaigns
-title: "Careers - ReactJS Developers"
+title: "Careers - React Native Developers"
 permalink: "/careers/react-native"
 slug: "react-native"
 main_description:
   "Hire React Native developer to build intuitive, visually appealing,
   and fully functional cross-platform app that can be conveniently
   deployed on both iOS and Android environments"
-developer_type: "React JS Developers"
+developer_type: "React Native Developers"
 projects:
   [
     {
