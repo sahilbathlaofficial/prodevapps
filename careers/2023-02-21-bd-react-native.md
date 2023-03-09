@@ -11,13 +11,10 @@ developer_type: "React Native Developers"
 projects:
   [
     {
-      image: "/img/bd-campaigns/proj-1.jpg",
-      name: "TryMata",
-      info: "It is a remote user acceptance testing platform that offers
-        robust, affordable, cross-platform services for testing and
-        improving user experience. You can set everything up and run the
-        test in a matter of hours with TryMata, which keeps things really
-        agile.",
+      image: "/img/bd-campaigns/proj-3.jpg",
+      name: "ERFA",
+      info: "We recognise the importance and value of contributing to our
+        community. We believe in making a difference to.",
     },
     {
       image: "/img/bd-campaigns/proj-4.jpg",
@@ -28,7 +25,7 @@ projects:
         versions of a webpage or app to see which one performs better.",
     },
     {
-      image: "/img/bd-campaigns/proj-3.jpg",
+      image: "/img/bd-campaigns/cloudberry.jpeg",
       name: "CLOUDBERRY",
       info: "Cloudberry is a doctors and patients communication platform.The purpose of this project is to keep the track of patient treatment if one one doctor is not available then other doctors from the same department can treat the patient by seeing their activity records.",
     },

@@ -218,7 +218,7 @@
 }
 
 .oe-heading.sub {
-  font-size: 64px;
+  font-size: 36px;
 }
 
 .oe-heading span {
@@ -252,8 +252,7 @@
 }
 
 .frame-1-card-img-top{
-  padding: 24px 48px;
-    width: 100%;
+  width: 100%;
 }
 
 .frame-1-card-title {
