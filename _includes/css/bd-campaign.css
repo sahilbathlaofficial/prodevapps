@@ -89,6 +89,7 @@
   letter-spacing: 0.005em;
   text-transform: unset;
 }
+
 .bd-sponsor-logo {
   padding: 5px;
   border-radius: 5px;
@@ -123,6 +124,8 @@
   text-transform: capitalize;
   color: #000000;
 }
+
+
 
 .waw-description {
   font-family: "Poppins";
@@ -159,7 +162,7 @@
   text-fill-color: transparent;
 }
 
-.waw-row, .waw-row {
+.waw-row{
   margin-top: 60px;
 }
 
@@ -168,6 +171,7 @@
   border-radius: 10px;
   padding: 14px;
   margin: 10px;
+  min-height: 320px;
 }
 
 .box-heading h3 {
@@ -241,6 +245,7 @@
 .frame-1-card.dev {
   min-height: 409px;
   background-color: #ffffff;
+  margin-top: 24px;
 }
 
 .frame-1-card-img-overlay {
@@ -355,4 +360,26 @@
 }
 .contact-modal .modal-footer {
   padding: 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-heading h1, .oe-heading3 h3 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .bd-sponsor-heading, .bd-waw-heading, .oe-heading {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .bd-waw-sub-heading, .oe-heading.sub {
+    font-size: 24px;
+    line-height: unset;
+  }
+  .waw-row {
+    margin-top: 8px;
+  }
+  .bd-main-img {
+    display: none;
+  }
 }
