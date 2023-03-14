@@ -26,7 +26,7 @@ $(function() {
             // send mail
             $.ajax({
                 // url: "https://db-node-mail-service.herokuapp.com/api/email",
-                url: "http://mailer.decabits.com/api/email",
+                url: "https://mailer.decabits.com/api/email",
                 type: "POST",
                 data: {
                     "to": `info@decabits.com`,
