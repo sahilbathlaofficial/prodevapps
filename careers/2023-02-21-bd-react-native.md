@@ -4,7 +4,7 @@ title: "Careers - React Native Developers"
 permalink: "/careers/react-native"
 slug: "react-native"
 main_description:
-  "Hire React Native developer to build intuitive, visually appealing,
+  "Hire top 10% React Native developer to build intuitive, visually appealing,
   and fully functional cross-platform app that can be conveniently
   deployed on both iOS and Android environments"
 developer_type: "React Native Developers"
@@ -53,7 +53,7 @@ expertise:
     {
       image: "/img/bd-campaigns/developers/rahul.jpg",
       name: "Rahul Ranjan",
-      experience: "4+ years",
+      experience: "5 years",
       info: "Rahul is very passionate about his work and his personality is a multiple dimension of fun and quirkiness, he recently joined us and since then he has shown exceptional work skills.",
       rating: "4",
       phone: +91 79734 06538,
