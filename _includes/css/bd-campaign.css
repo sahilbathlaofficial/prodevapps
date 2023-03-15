@@ -12,6 +12,8 @@
   line-height: 92px;
   text-transform: capitalize;
   color: #000000;
+  font-size: 46px;
+  line-height: 62px;
 }
 
 .bd-text {
@@ -20,6 +22,12 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
+}
+
+.bd-main-info {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: bold;
 }
 
 .bd-main .input-group {
@@ -125,8 +133,6 @@
   color: #000000;
 }
 
-
-
 .waw-description {
   font-family: "Poppins";
   font-style: normal;
@@ -162,7 +168,7 @@
   text-fill-color: transparent;
 }
 
-.waw-row{
+.waw-row {
   margin-top: 60px;
 }
 
@@ -256,7 +262,7 @@
   padding: 20px;
 }
 
-.frame-1-card-img-top{
+.frame-1-card-img-top {
   width: 100%;
 }
 
@@ -313,7 +319,7 @@
     #000000 0%,
     #ffcc00 93.34%
   ); */
-  background: linear-gradient(90.53deg, #B79300 37.9%, #FFCC00 76.17%);
+  background: linear-gradient(90.53deg, #b79300 37.9%, #ffcc00 76.17%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -349,11 +355,11 @@
 
 .contact-modal .close {
   float: right;
-    font-size: 22.5px;
-    font-weight: bold;
-    line-height: 1;
-    color: #000000;
-    text-shadow: none;
+  font-size: 22.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: none;
 }
 .contact-modal .modal-body {
   padding: 10px 20px;
@@ -362,17 +368,20 @@
   padding: 10px 0;
 }
 
-
 @media only screen and (max-width: 600px) {
-  .main-heading h1, .oe-heading3 h3 {
+  .main-heading h1,
+  .oe-heading3 h3 {
     font-size: 32px;
     line-height: 46px;
   }
-  .bd-sponsor-heading, .bd-waw-heading, .oe-heading {
+  .bd-sponsor-heading,
+  .bd-waw-heading,
+  .oe-heading {
     font-size: 32px;
     line-height: 46px;
   }
-  .bd-waw-sub-heading, .oe-heading.sub {
+  .bd-waw-sub-heading,
+  .oe-heading.sub {
     font-size: 24px;
     line-height: unset;
   }
