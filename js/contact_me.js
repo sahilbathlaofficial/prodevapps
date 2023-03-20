@@ -3,7 +3,7 @@ $(function() {
         e.preventDefault();
         var email = $("#connect-email").val();
         $("input#email").val(email)
-        $('#myModalHorizontal').modal('show');
+        $('#contactModal').modal('show');
     })
 
     $("input,textarea").jqBootstrapValidation({
@@ -48,8 +48,8 @@ $(function() {
 
                     //clear & reset all fields
                     $('#contactForm').trigger("reset");
-                    if($('#myModalHorizontal')){
-                        $('#myModalHorizontal').modal('hide');
+                    if($('#contactModal')){
+                        $('#contactModal').modal('hide');
                         $("#connect-email").val('');
                     }
                 },
