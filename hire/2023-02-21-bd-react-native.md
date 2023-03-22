@@ -1,7 +1,7 @@
 ---
 layout: bd_campaigns
-title: "Careers - React Native Developers"
-permalink: "/careers/react-native"
+title: "Hire - React Native Developers"
+permalink: "/hire/react-native"
 slug: "react-native"
 main_description:
   "Hire top 10% React Native developer to build intuitive, visually appealing,
