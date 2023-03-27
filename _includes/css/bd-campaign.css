@@ -254,10 +254,10 @@
 }
 
 .frame-1-card-img-overlay {
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute;
+  bottom: 0px; */
   background-color: rgba(0, 0, 0, 0.7);
-  min-height: 393px;
+  height: 393px;
   padding: 20px;
 }
 
@@ -281,7 +281,7 @@
   line-height: 28px;
 }
 .card-img {
-  min-height: 600px;
+  /* min-height: 600px; */
   width: 100%;
 }
 
