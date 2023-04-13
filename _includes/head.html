@@ -1,84 +1,136 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="google-site-verification" content="W2mNXXnoTU_R-TOq65n4iJnmuozB-gY2CTFwYyC_m6Q" />
-    <meta property="og:image" content="/favicon.png">
-    <meta name="thumbnail" content="https://decabits.com/favicon.png">
-    <meta name="google-site-verification" content="yUZamG2-bNpYdZbFje6HOkFS8RrleohN4LkdtwxPdJ0" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <!-- link for favicon -->
-    <link rel="shortcut icon" type="image/png" href="/favicon-img.ico">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta
+    name="google-site-verification"
+    content="W2mNXXnoTU_R-TOq65n4iJnmuozB-gY2CTFwYyC_m6Q"
+  />
+  <meta property="og:image" content="/favicon.png" />
+  <meta name="thumbnail" content="https://decabits.com/favicon.png" />
+  <meta
+    name="google-site-verification"
+    content="yUZamG2-bNpYdZbFje6HOkFS8RrleohN4LkdtwxPdJ0"
+  />
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
+  <!-- link for favicon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon-img.ico" />
 
-    <!-- link for fa-icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- link for fa-icons -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" type="text/css" media="screen" />
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" |
+  prepend: site.baseurl }}">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    type="text/css"
+    media="screen"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Calendly inline widget end -->
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->
-   <script type="application/ld+json">
-  {
-  "@context": "http://schema.org/",
-  "@type": "Software Company",
-  "name": "Web & Mobile App Development | Software Solutions | Decabits",
-  "logo": "https://decabits.com/favicon.png",
-  "image": "https://decabits.com/favicon.png",
-  "description": "Web Designing, Web & Mobile App Development. Open to freelance jobs & remote work. Tech Stack: Ruby on Rails, Angular, Node, React, Android & iOS."
- }
-</script>
-<script type="application/ld+json">
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- Calendly inline widget end -->
+  <script
+    type="text/javascript"
+    src="https://assets.calendly.com/assets/external/widget.js"
+  ></script>
+  <!-- Calendly inline widget end -->
+  <script type="application/ld+json">
     {
-      "@context" : "https://schema.org/",
-      "@type" : "JobPosting",
-      "title" : "Quality Assurance Engineer",
-      "description" : "<p><b>Decabits Software</b> is a services-based company and a startup incubator, handling projects of top-notch companies based out of US, UK and Australia. We are currently looking for a Quality Assurance Engineer with good hands on API testing, Website Testing, Load/Stress Testing & Regression Testing.</p><br><p><b>Experience - </b> 1.5+ Years</p> <br> <p><b>Salary - </b> 2-10 LPA(based on experience)</p>",
+      "@context": "http://schema.org/",
+      "@type": "Software Company",
+      "name": "Web & Mobile App Development | Software Solutions | Decabits",
+      "logo": "https://decabits.com/favicon.png",
+      "image": "https://decabits.com/favicon.png",
+      "description": "Web Designing, Web & Mobile App Development. Open to freelance jobs & remote work. Tech Stack: Ruby on Rails, Angular, Node, React, Android & iOS."
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Quality Assurance Engineer",
+      "description": "<p><b>Decabits Software</b> is a services-based company and a startup incubator, handling projects of top-notch companies based out of US, UK and Australia. We are currently looking for a Quality Assurance Engineer with good hands on API testing, Website Testing, Load/Stress Testing & Regression Testing.</p><br><p><b>Experience - </b> 1.5+ Years</p> <br> <p><b>Salary - </b> 2-10 LPA(based on experience)</p>",
       "identifier": {
         "@type": "PropertyValue",
         "name": "Decabits Software",
         "value": "https://decabits.com"
       },
-      "datePosted" : "2022-09-27",
-      "validThrough" : "2022-10-27T00:00",
-      "experienceRequirements" : {
-        "@type" : "OccupationalExperienceRequirements",
-        "monthsOfExperience" : "18"
+      "datePosted": "2022-09-27",
+      "validThrough": "2022-10-27T00:00",
+      "experienceRequirements": {
+        "@type": "OccupationalExperienceRequirements",
+        "monthsOfExperience": "18"
       },
-      "employmentType" : "FULL_TIME",
-      "hiringOrganization" : {
-        "@type" : "Organization",
-        "name" : "Decabits Software",
-        "sameAs" : "https://decabits.com/",
-        "logo" : "https://decabits.com/img/logos/Decabits_logofinal-01.png"
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Decabits Software",
+        "sameAs": "https://decabits.com/",
+        "logo": "https://decabits.com/img/logos/Decabits_logofinal-01.png"
       },
       "jobLocation": {
-      "@type": "Place",
+        "@type": "Place",
         "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "G-27, 2nd floor, Bali Nagar",
-        "addressLocality": "West Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110015",
-        "addressCountry": "IN"
+          "@type": "PostalAddress",
+          "streetAddress": "G-27, 2nd floor, Bali Nagar",
+          "addressLocality": "West Delhi",
+          "addressRegion": "Delhi",
+          "postalCode": "110015",
+          "addressCountry": "IN"
         }
       },
       "baseSalary": {
@@ -86,14 +138,14 @@
         "currency": "INR",
         "value": {
           "@type": "QuantitativeValue",
-          "minValue": 200000.00,
-          "maxValue": 1000000.00,
+          "minValue": 200000.0,
+          "maxValue": 1000000.0,
           "unitText": "YEAR"
         }
       }
     }
-</script>
-<script type="application/ld+json">
+  </script>
+  <script type="application/ld+json">
     {
         "@context" : "https://schema.org/",
         "@type" : "JobPosting",
@@ -101,7 +153,7 @@
         "description" : "<p><b>Decabits Software</b> is a services-based company and a startup incubator, handling projects of top-notch companies based out of US, UK and Australia. We are currently looking for a fresher with good hands on full stack development.</p><br>
                 <p><b>Experience - </b> 5+ Years</p> <br> <p><b>Salary - </b> Negotiable according to market rates</p>
                 <h6>Required Skillset :</h6>
-                <p>- Experience with Ruby on Rails, along with other common libraries such as RSpec and Resque. 
+                <p>- Experience with Ruby on Rails, along with other common libraries such as RSpec and Resque.
 
                 <br> - Solid understanding of object-oriented programming.
 
@@ -126,7 +178,7 @@
 
                 <br> - Flexible work hours.
 
-                <br> - A chance to be part of the core team. 
+                <br> - A chance to be part of the core team.
 
                 <br> - Direct exposure to client projects.</p>
                 <h6>When you apply do add (if any):</h6>
@@ -172,22 +224,92 @@
             }
         }
     }
-</script>
- 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M8PBPCW');</script>
-<!-- End Google Tag Manager -->
+  </script>
 
-<!-- Google Phone call Tracking -->
-<script>
-  gtag('config', 'AW-11077030407/v9w8COvugPwDEIek-KEp', {
-    'phone_conversion_number': '9354024450'
-  });
-</script>
-<!-- End Google Phone call Tracking -->
+  <!-- Leedfeeder installation -->
+  <script>
+    (function (ss, ex) {
+      window.ldfdr =
+        window.ldfdr ||
+        function () {
+          (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+        };
+      (function (d, s) {
+        fs = d.getElementsByTagName(s)[0];
+        function ce(src) {
+          var cs = d.createElement(s);
+          cs.src = src;
+          cs.async = 1;
+          fs.parentNode.insertBefore(cs, fs);
+        }
+        ce(
+          "https://sc.lfeeder.com/lftracker_v1_" +
+            ss +
+            (ex ? "_" + ex : "") +
+            ".js"
+        );
+      })(document, "script");
+    })("lYNOR8x1Wnq7WQJZ");
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-11077030407"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "AW-11077030407");
+  </script>
+  <!-- Google tag (gtag.js) End -->
+
+  <!-- Event snippet for Submit lead form conversion page -->
+  <script>
+    gtag("event", "conversion", {
+      send_to: "AW-11077030407/_mJyCIGWzIkYEIek-KEp",
+    });
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-M8PBPCW");
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-5V2JLQJ");
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Phone call Tracking -->
+  <script>
+    gtag("config", "AW-11077030407/v9w8COvugPwDEIek-KEp", {
+      phone_conversion_number: "9354024450",
+    });
+  </script>
+  <!-- End Google Phone call Tracking -->
 </head>
-    
