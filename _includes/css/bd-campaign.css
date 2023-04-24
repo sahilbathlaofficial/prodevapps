@@ -10,10 +10,10 @@
   font-weight: 800;
   font-size: 64px;
   line-height: 92px;
-  text-transform: capitalize;
   color: #000000;
   font-size: 46px;
   line-height: 62px;
+  text-transform: uppercase;
 }
 
 .bd-text {
@@ -86,6 +86,50 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bd-emerging-tech-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+}
+
+.bd-emerging-tech-btns {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 52px;
+}
+
+.bd-link-button {
+  width: 264px;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 144%;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+}
+
+.bd-link-button:hover {
+  text-decoration: none;
+}
+
+.bd-link-button span {
+  background: linear-gradient(91.02deg, #ffcc00 8.29%, #b79300 96.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bd-sponsor-heading {
   font-family: "Poppins";
   font-style: normal;
@@ -94,7 +138,7 @@
   line-height: 78px;
   text-align: center;
   letter-spacing: 0.005em;
-  text-transform: unset;
+  text-transform: uppercase;
 }
 
 .bd-sponsor-logo {
@@ -128,7 +172,7 @@
   font-weight: 800;
   font-size: 64px;
   line-height: 144%;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -348,7 +392,7 @@
   .frame-1-body {
     display: block;
   }
-  .waw-button{
+  .waw-button {
     font-size: 20px;
     width: 180px;
     height: 52px;
@@ -378,6 +422,7 @@
     font-size: 32px;
     line-height: 46px;
   }
+  .bd-emerging-tech-heading,
   .bd-sponsor-heading,
   .bd-waw-heading,
   .oe-heading {
