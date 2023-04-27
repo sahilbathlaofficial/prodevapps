@@ -49,9 +49,9 @@ $(function () {
         url: "https://mailer.decabits.com/api/email",
         type: "POST",
         data: {
-          to: `info@decabits.com`,
+          to: `business@decabits.com`,
           cc: `sahilbathla1@gmail.com`,
-          from: '"Decabits" info@decabits.com',
+          from: '"Decabits" business@decabits.com',
           subject: "Website Contact Form:  " + name,
           text: `You have received a new message from your website contact form.\n\nHere are the details:\n\nName: ${name}\n\nMobile: ${phone}\n\nEmail: ${email}\n\nMessage:\n${message}`,
         },
