@@ -1,3 +1,7 @@
+.bd-main {
+  margin-top: 80px;
+}
+
 .frame-1-body {
   background-image: url(/img/bd-campaigns/bd-bg-wave.svg) !important;
   background-size: cover;
