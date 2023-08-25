@@ -1,0 +1,20 @@
+---
+title: Renters
+subtitle: Renters is a financial services app for everyone paying home rents. 
+layout: default
+modal-id: 1
+date: Sepember 2021
+img: renters-featured.png
+thumbnail: renters-thumbnail.png
+alt: Renters
+project-date: Ongoing
+client:  Salman
+category: Mobile development
+description: Renters is a financial services app for everyone paying home rents. It upgrade your rent payments experience by making it more affordable, flexible, and rewarding every time you pay your rent.<br/><br/> <b>Key Features - </b> <br/> 
+    - The application is generic & consists of a very user friendly interface.<br/>
+    - Simplified Payments Experience.<br/>
+    - Avoid the hassles and legal challenges that come with using Cheques, get the Flexibility to pay rent using a credit card.
+ <br/><br/> <b>Tech Stack - </b> <br/> Renters is powered by a combination of React Native on the frontend and NodeJS on the backend. 
+link:
+status: Live
+---
