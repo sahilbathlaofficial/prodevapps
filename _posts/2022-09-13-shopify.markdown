@@ -1,6 +1,6 @@
 ---
 title: Webstores
-subtitle: E-commerce platform for online stores
+subtitle: Perfect solution for e commerce website
 layout: default
 modal-id: 1
 date: September 2022
