@@ -1,0 +1,18 @@
+---
+title: Trymata
+subtitle: Remote user acceptance testing platform
+layout: default
+modal-id: 1
+date: 2022-09-12
+img: trymata-featured.jpeg
+thumbnail: trymata-thumbnail.jpeg
+alt: Trymata
+project-date: Ongoing
+client: Trymata
+category: Web development
+description: It is a remote user acceptance testing platform and product analytics solutions that offers robust, affordable, cross-platform services for testing and improving user experience. You can set everything up and run the test in a matter of hours with Trymata, which keeps things really agile.
+
+ <br/><br/> <b>Key Features - </b> <br/> Various test setup options like Unmoderated & moderated testing, Desktop & mobile testing, Websites, apps & prototypes, Impression testing. <br/> Analysis & collaboration:- Multi-member login, Video annotations, Highlight reels, UX Sprint, Data export. For analytics options, providing website visitor logs, sessions, page based insights and many more.<br/><br/> <b>Tech Stack - </b> <br/> The website design uses a combination of Ruby on Rails, Sidekiq, AWS to display web analytics reports seamlessly. 
+link: https://trymata.com/
+status: Live
+---
