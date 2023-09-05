@@ -4,7 +4,7 @@ subtitle: Renters is a financial services app for everyone paying home rents.
 layout: default
 modal-id: 1
 date: Sepember 2021
-img: renters-featured.png
+img: renters-main.jpeg
 thumbnail: renters-thumbnail.png
 alt: Renters
 project-date: Ongoing

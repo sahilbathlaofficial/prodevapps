@@ -999,6 +999,11 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+.portfolio-modal .item-details li,
+.portfolio-modal .item-details li > p {
+    width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     .portfolio-modal .modal-content {
         padding: 56px 4%;
