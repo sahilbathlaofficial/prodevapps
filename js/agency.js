@@ -74,6 +74,10 @@ $("#btn-career4").click(function() {
     $("#career4").css('display', 'unset');
     $("body").css('overflow','hidden');
 });
+$("#btn-career5").click(function() {
+    $("#career5").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
 
 $("#career-close4").click(function(){
     $("#career4").css('display', 'none');
