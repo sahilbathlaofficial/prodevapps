@@ -78,9 +78,21 @@ $("#btn-career5").click(function() {
     $("#career5").css('display', 'unset');
     $("body").css('overflow','hidden');
 });
+$("#career-close5").click(function(){
+    $("#career5").css('display', 'none');
+    $("body").css('overflow','unset');
+});
 
 $("#career-close4").click(function(){
     $("#career4").css('display', 'none');
+    $("body").css('overflow','unset');
+});
+$("#btn-career6").click(function() {
+    $("#career6").css('display', 'unset');
+    $("body").css('overflow','hidden');
+});
+$("#career-close6").click(function(){
+    $("#career6").css('display', 'none');
     $("body").css('overflow','unset');
 });
 $("#bt-close-video").click(function() {
