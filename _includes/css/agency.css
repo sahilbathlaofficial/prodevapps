@@ -1224,7 +1224,7 @@ ul.social-buttons li a:active {
     background-color: #fff !important; /* Fallback color */
     background-color: #fff !important;
 }
-#career3, #career4, #career5{
+#career3, #career4, #career5, #career6{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index:1111; /* Sit on top */
