@@ -8,7 +8,7 @@ img: erfa-ss.png
 thumbnail: erfa.png
 alt: PlayTM
 project-date: December 2020
-client: Salman
+client: Renters
 category: Mobile development
 description: Built on our very favorite React Native, Erfa is supported on both Ios & Android platforms.The application is created to resell premium products like garments and accesories easily. TWith the progessive need of online shopping as users go digital, Erfa is for multiple vendors as well as users.
  <br/><br/> <b>Key Features - </b>
