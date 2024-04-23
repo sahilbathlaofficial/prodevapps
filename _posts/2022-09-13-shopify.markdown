@@ -14,5 +14,5 @@ description: We are currently building and handling around 40 stores for various
 
  <br/><br/> <b>Key Features - </b> <br/> Building and managing approximately 40 stores for various Social Imprints clients. <br/> Managing over 10 Shopify Custom Apps for various use cases, including the creation of promo codes and e-wallets.<br/><br/> <b>Tech Stack - </b> <br/> Shopify, JavaScript, Zapier and Ruby on Rails.
 link: 
-status: Live
+status: Past
 ---

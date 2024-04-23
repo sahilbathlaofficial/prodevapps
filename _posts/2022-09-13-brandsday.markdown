@@ -16,5 +16,5 @@ description: Brandsday is an e-commerce mobile application where users can find 
     - Influencer can also create post to promote products.
  <br/><br/> <b>Tech Stack - </b> <br/> Brandsday is powered by a combination of React Native on the frontend, Ruby on Rails on the backend, and Magento for e-commerce management. 
 link: https://brandsday.com/
-status: Live
+status: Past
 ---
