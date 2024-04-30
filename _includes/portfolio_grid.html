@@ -9,11 +9,12 @@
             </div>
         <div class="row">
                 <div style="padding: 30px;" class="">
-                    <h3 class="text-center" style="color:#999"><span style="color:#2684FF">Live </span>Projects</h3>
+                    <h3 class="text-center" style="color:#999"><span style="color:#2684FF"></span>Projects</h3>
                 </div>
         {% assign index = 0 %}
         {% for post in site.posts %}
-                {% if post.status == "Live" %}
+        <!-- Update condition here to add Live Projects -->
+        {% if post.status != "NA" %}
                     {% assign value = index | modulo:3 %}
                     {% if value == 0 %}
                         <div class="row" style="margin: 0 0 15px;">
@@ -40,7 +41,7 @@
                 {% endif %}
         {% endfor %}
             </div>
-            <div class="row" style="margin: 0 0 15px;">
+            <!-- <div class="row" style="margin: 0 0 15px;">
                 <div style="padding: 30px;">
                     <h3 class="text-center" style="color:#999"><span style="color:#2684FF">Past </span>Projects</h3>
                 </div>
@@ -72,7 +73,7 @@
 
                         {% endif %}
                 {% endfor %}
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
